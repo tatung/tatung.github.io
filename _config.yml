@@ -24,12 +24,12 @@ show_social_icons:    true
 post_preview_image: false
 
 # Disqus post comments
-disqus_shortname:
+disqus_shortname: 6fingers-me
 
 # Social icons
 github_username: tatung
 twitter_username: tatung2112
-linkedin_username: tatung2112
+linkedin_username: tung-ta-duc-783aa94b
 
 # Post sharing icons
 show_sharing_icons: true

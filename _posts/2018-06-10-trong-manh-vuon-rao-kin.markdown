@@ -2,6 +2,7 @@
 layout: post
 title:  "Trong mảnh vườn rào kín"
 date:   2018-06-10 00:38:27 +0900
+comments: true
 categories: opinion
 ---
 “In a walled garden” - “Trong mảnh vườn rào kín” là thuật ngữ quen thuộc để ám chỉ hệ sinh thái của Apple. Tuy nhiên, bài này sẽ không bàn đến Apple mà là về cảm giác khi sống đằng sau The Great Firewall ở Bắc Kinh.
