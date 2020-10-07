@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-07T01:11:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">6fingers.me</title><subtitle>This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.</subtitle><entry><title type="html">IoT và Bão</title><link href="http://localhost:4000/promotion/2019/11/09/IoT-va-Bao.html" rel="alternate" type="text/html" title="IoT và Bão" /><published>2019-11-09T00:38:27+09:00</published><updated>2019-11-09T00:38:27+09:00</updated><id>http://localhost:4000/promotion/2019/11/09/IoT-va-Bao</id><content type="html" xml:base="http://localhost:4000/promotion/2019/11/09/IoT-va-Bao.html">&lt;p&gt;Chắc hẳn mọi người vẫn chưa quên mức độ tàn phá của cơn bão số 19 đổ bộ vào Tokyo gần 3 tuần trước. Siêu bão càn quét vào gây lụt lội cũng như khiến không ít nhà phải đi sơ tán trong đêm. Tối hôm đó thứ Bảy, chị Budo nhà mình thì vẫn ăn no ngủ kĩ, 8h lóp ngóp bò lên giường. Tuy nhiên, hai bố mẹ thì ngồi lo lắng đợi lệnh sơ tán. Khổ, nhà ở tầng 7 mà vẫn sợ bị lụt. Mình thì nghĩ nhà cao tầng thì sợ quái gì. Lụt mà leo lên được tầng 7 thì có mà loạn. Có khi ở nhà còn an toàn hơn ở chỗ sơ tán. Nhưng nghĩ lại, nếu lụt thì không thể đi đâu. Mà nhà mình phần hệ thống cấp điện lại để ở tầng 1, nên nếu lụt thì cũng đi tong cả điện lẫn nước. Quan trọng nhất, chị Budo cả tuần tập chạy hăng say để hôm sau Chủ Nhật tham gia hội thể dục thể thao ở trường, nếu lụt thì sẽ bị huỷ. Thật là phí! Bu Hồng phải cài đến 3 cái app vào điện thoại để theo dõi. Mấy cái app này ngoài push thông tin dự báo thời tiết với thông tin sơ tán, thì còn có theo dõi mực nước sông theo thời gian thực. Ở bờ sông nhà mình có 2 cái camera, hai vợ chồng ngồi hồi hộp theo dõi mực nước qua 2 camera này. Từ lúc nước dâng qua nửa chân cầu, rồi 2/3 chân cầu, rồi tràn vào bờ, tràn mép đài quan trắc gần đấy. Rất may là nước chỉ dâng tới đó rồi thôi, chứ dâng nữa là không đợi lệnh, cả nhà chắc cũng ô áo xách cặp đi sơ tán. Sáng hôm sau trời quang mây tạnh, cả nhà thở phào, chuẩn bị đồ đi tham gia hội thể dục thể thao của Budo.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6fingers.me</title>
+    <description>This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>IoT và Bão</title>
+        <description>&lt;p&gt;Chắc hẳn mọi người vẫn chưa quên mức độ tàn phá của cơn bão số 19 đổ bộ vào Tokyo gần 3 tuần trước. Siêu bão càn quét vào gây lụt lội cũng như khiến không ít nhà phải đi sơ tán trong đêm. Tối hôm đó thứ Bảy, chị Budo nhà mình thì vẫn ăn no ngủ kĩ, 8h lóp ngóp bò lên giường. Tuy nhiên, hai bố mẹ thì ngồi lo lắng đợi lệnh sơ tán. Khổ, nhà ở tầng 7 mà vẫn sợ bị lụt. Mình thì nghĩ nhà cao tầng thì sợ quái gì. Lụt mà leo lên được tầng 7 thì có mà loạn. Có khi ở nhà còn an toàn hơn ở chỗ sơ tán. Nhưng nghĩ lại, nếu lụt thì không thể đi đâu. Mà nhà mình phần hệ thống cấp điện lại để ở tầng 1, nên nếu lụt thì cũng đi tong cả điện lẫn nước. Quan trọng nhất, chị Budo cả tuần tập chạy hăng say để hôm sau Chủ Nhật tham gia hội thể dục thể thao ở trường, nếu lụt thì sẽ bị huỷ. Thật là phí! Bu Hồng phải cài đến 3 cái app vào điện thoại để theo dõi. Mấy cái app này ngoài push thông tin dự báo thời tiết với thông tin sơ tán, thì còn có theo dõi mực nước sông theo thời gian thực. Ở bờ sông nhà mình có 2 cái camera, hai vợ chồng ngồi hồi hộp theo dõi mực nước qua 2 camera này. Từ lúc nước dâng qua nửa chân cầu, rồi 2/3 chân cầu, rồi tràn vào bờ, tràn mép đài quan trắc gần đấy. Rất may là nước chỉ dâng tới đó rồi thôi, chứ dâng nữa là không đợi lệnh, cả nhà chắc cũng ô áo xách cặp đi sơ tán. Sáng hôm sau trời quang mây tạnh, cả nhà thở phào, chuẩn bị đồ đi tham gia hội thể dục thể thao của Budo.&lt;/p&gt;
 
 &lt;p&gt;Câu chuyện sẽ chẳng có gì nếu mình không bất chợt nhớ tới việc thỉnh thoảng mình hay được hỏi về chuyên ngành nghiên cứu của mình là gì. Mình hay trả lời là em làm về IoT ạ. Sau đấy là một loạt giải thích IoT là gì, cụ thể là làm cái gì trong IoT, v.v. Nghĩ về câu chuyện camera theo dõi mực nước sông trong cơn bão ở trên, mình nghĩ IoT là đây chứ đâu. Mực nước sông đương nhiên theo dõi bằng cảm biến mực nước sẽ chính xác hơn. Tuy nhiên, ở Nhật có một khái niệm là 安全安心 - an toàn và an tâm. Trong cơn bão 19 vừa qua an toàn đó là việc sức khoẻ cũng như tài sản được bảo vệ trước thiên tai, còn an tâm chính là việc mọi người biết là mình sẽ được an toàn. Một ví dụ đơn cử đó là việc hai vợ chồng mình có thể theo dõi mực nước sông một cách trực quan, mặc dù biết là các cơ quan khí tượng cũng có quan trắc sát sao mực nước lũ bằng các hệ thống hiện đại khác. Việc thêm thông tin về hình ảnh trực quan giống như topping một quả cherry trên chiếc bánh kem. Không có thì cũng không chết ai, nhưng có thì mức độ hoàn thiện của cả hệ thống sẽ được nâng lên gấp nhiều lần. IoT ngoài là một mạng lưới các cảm biến, còn bao gồm cả yếu tố con người. Và chính con người sẽ trở thành trung tâm của hệ thống IoT tương lai.&lt;/p&gt;
 
@@ -19,13 +29,31 @@
 
 &lt;ul&gt;
   &lt;li&gt;Mình sẽ tham gia tổ chức thảo luận cho phiên thảo luận về IoT cùng các anh chị đang nghiên cứu giảng dạy ở các trường đại học cũng như các anh chị đang làm việc ở một số công ty ở Nhật. Hy vọng sẽ được gặp nhiều bạn bè trong phiên thảo luận này.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="promotion" /><summary type="html">Chắc hẳn mọi người vẫn chưa quên mức độ tàn phá của cơn bão số 19 đổ bộ vào Tokyo gần 3 tuần trước. Siêu bão càn quét vào gây lụt lội cũng như khiến không ít nhà phải đi sơ tán trong đêm. Tối hôm đó thứ Bảy, chị Budo nhà mình thì vẫn ăn no ngủ kĩ, 8h lóp ngóp bò lên giường. Tuy nhiên, hai bố mẹ thì ngồi lo lắng đợi lệnh sơ tán. Khổ, nhà ở tầng 7 mà vẫn sợ bị lụt. Mình thì nghĩ nhà cao tầng thì sợ quái gì. Lụt mà leo lên được tầng 7 thì có mà loạn. Có khi ở nhà còn an toàn hơn ở chỗ sơ tán. Nhưng nghĩ lại, nếu lụt thì không thể đi đâu. Mà nhà mình phần hệ thống cấp điện lại để ở tầng 1, nên nếu lụt thì cũng đi tong cả điện lẫn nước. Quan trọng nhất, chị Budo cả tuần tập chạy hăng say để hôm sau Chủ Nhật tham gia hội thể dục thể thao ở trường, nếu lụt thì sẽ bị huỷ. Thật là phí! Bu Hồng phải cài đến 3 cái app vào điện thoại để theo dõi. Mấy cái app này ngoài push thông tin dự báo thời tiết với thông tin sơ tán, thì còn có theo dõi mực nước sông theo thời gian thực. Ở bờ sông nhà mình có 2 cái camera, hai vợ chồng ngồi hồi hộp theo dõi mực nước qua 2 camera này. Từ lúc nước dâng qua nửa chân cầu, rồi 2/3 chân cầu, rồi tràn vào bờ, tràn mép đài quan trắc gần đấy. Rất may là nước chỉ dâng tới đó rồi thôi, chứ dâng nữa là không đợi lệnh, cả nhà chắc cũng ô áo xách cặp đi sơ tán. Sáng hôm sau trời quang mây tạnh, cả nhà thở phào, chuẩn bị đồ đi tham gia hội thể dục thể thao của Budo.</summary></entry><entry><title type="html">Nỗi buồn chiến tranh - Bảo Ninh</title><link href="http://localhost:4000/book/2018/10/19/noi-buon-chien-tranh.html" rel="alternate" type="text/html" title="Nỗi buồn chiến tranh - Bảo Ninh" /><published>2018-10-19T00:38:27+09:00</published><updated>2018-10-19T00:38:27+09:00</updated><id>http://localhost:4000/book/2018/10/19/noi-buon-chien-tranh</id><content type="html" xml:base="http://localhost:4000/book/2018/10/19/noi-buon-chien-tranh.html">&lt;p&gt;Một cuốn tiểu thuyết chiến tranh tuyệt vời. Bảo Ninh kể một câu truyện không có cốt truyện rõ ràng, mà lại vô cùng mạch lạc, lôi cuốn. Ông dẫn dắt người đọc lần giở từng ngõ ngách của quá khứ, của hiện tại, những chuyển biến nội tâm của những tuyến nhân vật chính, những khát khao tột đỉnh, những sợ hãi tột cùng, đối mặt, lảng tránh, dày vò, day dứt. Trên tất cả, “Nỗi buồn chiến tranh” vẽ lại sự tàn khốc của chiến tranh, một thứ tai ương ập xuống, dày xéo, càn quét. Và khi nó đi qua, để lại những hố sâu thăm thẳm trong cuộc đời những người đi qua nó. Người ta có thể nỗ lực xây dựng vun đắp một cuộc sống tốt đẹp sau cuộc chiến, nhưng những vết cắt trong tâm hồn thì chẳng ai có thể xoa nhòa. Những vết thương ấy sẽ lại lần mò dội về trong những mộng mị sầu đau. Tuy nhiên, dù có như vậy, dù có thê lương đến nhường nào, những con người của cuộc chiến sẽ vẫn mãi là họ của buổi ban sơ thanh xuân. Dù cuộc chiến có thay đổi tâm hồn con người đến mấy, thì thầm kín trong đáy lòng, chôn vùi trong kí ức, những tâm tưởng trong trẻo ngọt ngào sẽ luôn ở đó, âm ỉ, không bùng cháy, nhưng trung thành, và còn mãi.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 09 Nov 2019 00:38:27 +0900</pubDate>
+        <link>http://localhost:4000/IoT-va-Bao</link>
+        <guid isPermaLink="true">http://localhost:4000/IoT-va-Bao</guid>
+      </item>
+    
+      <item>
+        <title>Nỗi buồn chiến tranh - Bảo Ninh</title>
+        <description>&lt;p&gt;Một cuốn tiểu thuyết chiến tranh tuyệt vời. Bảo Ninh kể một câu truyện không có cốt truyện rõ ràng, mà lại vô cùng mạch lạc, lôi cuốn. Ông dẫn dắt người đọc lần giở từng ngõ ngách của quá khứ, của hiện tại, những chuyển biến nội tâm của những tuyến nhân vật chính, những khát khao tột đỉnh, những sợ hãi tột cùng, đối mặt, lảng tránh, dày vò, day dứt. Trên tất cả, “Nỗi buồn chiến tranh” vẽ lại sự tàn khốc của chiến tranh, một thứ tai ương ập xuống, dày xéo, càn quét. Và khi nó đi qua, để lại những hố sâu thăm thẳm trong cuộc đời những người đi qua nó. Người ta có thể nỗ lực xây dựng vun đắp một cuộc sống tốt đẹp sau cuộc chiến, nhưng những vết cắt trong tâm hồn thì chẳng ai có thể xoa nhòa. Những vết thương ấy sẽ lại lần mò dội về trong những mộng mị sầu đau. Tuy nhiên, dù có như vậy, dù có thê lương đến nhường nào, những con người của cuộc chiến sẽ vẫn mãi là họ của buổi ban sơ thanh xuân. Dù cuộc chiến có thay đổi tâm hồn con người đến mấy, thì thầm kín trong đáy lòng, chôn vùi trong kí ức, những tâm tưởng trong trẻo ngọt ngào sẽ luôn ở đó, âm ỉ, không bùng cháy, nhưng trung thành, và còn mãi.&lt;/p&gt;
 
 &lt;p&gt;Những cảm xúc cuốn sách mang lại thật mãnh liệt khó tả. Sự xót xa sẽ càng tăng lên nếu người đọc cũng là học sinh Chu Văn An. Cuốn sách đầu tiên mà mấy ngày sau khi đọc xong, mình vẫn chưa muốn đọc một cuốn sách mới ngay vì vẫn còn muốn lưu giữ lại lâu hơn chút nữa những suy tưởng mông lung mà “Nỗi buồn chiến tranh” đem lại.&lt;/p&gt;
 
 &lt;p&gt;Thật lạ khi Bảo Ninh sinh ra ở Nghệ An nhưng lại có thể tả về Hà Nội, tả về trường Bưởi với nhà Bát Giác sống động đến thế. Nhà Bát Giác 60 năm trước là nơi trốn học của học trò trường Bưởi thì nay vẫn thế. Vẫn là nơi lui tới của học sinh Chu Văn An mỗi khi lẻn tiết học để đi lang thang vu vơ.&lt;/p&gt;
 
-&lt;p&gt;P.S. Hóa ra Bảo Ninh cũng từng là học sinh của trường Bưởi Chu Văn An.&lt;/p&gt;</content><author><name></name></author><category term="book" /><summary type="html">Một cuốn tiểu thuyết chiến tranh tuyệt vời. Bảo Ninh kể một câu truyện không có cốt truyện rõ ràng, mà lại vô cùng mạch lạc, lôi cuốn. Ông dẫn dắt người đọc lần giở từng ngõ ngách của quá khứ, của hiện tại, những chuyển biến nội tâm của những tuyến nhân vật chính, những khát khao tột đỉnh, những sợ hãi tột cùng, đối mặt, lảng tránh, dày vò, day dứt. Trên tất cả, “Nỗi buồn chiến tranh” vẽ lại sự tàn khốc của chiến tranh, một thứ tai ương ập xuống, dày xéo, càn quét. Và khi nó đi qua, để lại những hố sâu thăm thẳm trong cuộc đời những người đi qua nó. Người ta có thể nỗ lực xây dựng vun đắp một cuộc sống tốt đẹp sau cuộc chiến, nhưng những vết cắt trong tâm hồn thì chẳng ai có thể xoa nhòa. Những vết thương ấy sẽ lại lần mò dội về trong những mộng mị sầu đau. Tuy nhiên, dù có như vậy, dù có thê lương đến nhường nào, những con người của cuộc chiến sẽ vẫn mãi là họ của buổi ban sơ thanh xuân. Dù cuộc chiến có thay đổi tâm hồn con người đến mấy, thì thầm kín trong đáy lòng, chôn vùi trong kí ức, những tâm tưởng trong trẻo ngọt ngào sẽ luôn ở đó, âm ỉ, không bùng cháy, nhưng trung thành, và còn mãi.</summary></entry><entry><title type="html">Trong mảnh vườn rào kín</title><link href="http://localhost:4000/opinion/2018/06/10/trong-manh-vuon-rao-kin.html" rel="alternate" type="text/html" title="Trong mảnh vườn rào kín" /><published>2018-06-10T00:38:27+09:00</published><updated>2018-06-10T00:38:27+09:00</updated><id>http://localhost:4000/opinion/2018/06/10/trong-manh-vuon-rao-kin</id><content type="html" xml:base="http://localhost:4000/opinion/2018/06/10/trong-manh-vuon-rao-kin.html">&lt;p&gt;“In a walled garden” - “Trong mảnh vườn rào kín” là thuật ngữ quen thuộc để ám chỉ hệ sinh thái của Apple. Tuy nhiên, bài này sẽ không bàn đến Apple mà là về cảm giác khi sống đằng sau The Great Firewall ở Bắc Kinh.&lt;/p&gt;
+&lt;p&gt;P.S. Hóa ra Bảo Ninh cũng từng là học sinh của trường Bưởi Chu Văn An.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Oct 2018 00:38:27 +0900</pubDate>
+        <link>http://localhost:4000/noi-buon-chien-tranh</link>
+        <guid isPermaLink="true">http://localhost:4000/noi-buon-chien-tranh</guid>
+      </item>
+    
+      <item>
+        <title>Trong mảnh vườn rào kín</title>
+        <description>&lt;p&gt;“In a walled garden” - “Trong mảnh vườn rào kín” là thuật ngữ quen thuộc để ám chỉ hệ sinh thái của Apple. Tuy nhiên, bài này sẽ không bàn đến Apple mà là về cảm giác khi sống đằng sau The Great Firewall ở Bắc Kinh.&lt;/p&gt;
 
 &lt;p&gt;Cách đây 4 năm, mình có cơ hội được đi thực tập ở Bắc Kinh 3 tháng. Kể về trải nghiệm ở kinh đô của “thiên triều” thì có nhiều điều, cả hay ho lẫn quái đản. Nhưng một trong những điều nổi tiếng nhất đó là hệ thống kiểm soát “an ninh mạng”. Từ sau 2008 khi Google quyết định rời trụ sở từ Trung Hoa Đại Lục sang Hương Cảng (Hongkong), có thể nói toàn bộ không gian mạng ở Đại Lục là sân chơi của các công ty nội địa. Điều này có lẽ tốt cho sự phát triển của nền kinh tế Trung Quốc. Chẳng vậy mà những Alibaba, Tencent, hay Xiaomi càng ngày càng lớn mạnh và thể hiện vai trò ngày càng quan trọng trong nền kinh tế thế giới (cả industry lẫn academia).&lt;/p&gt;
 
@@ -43,4 +71,282 @@
 
 &lt;p&gt;P.S. 2. Trong một giờ học về kiến trúc mạng Internet ở trường, lớp mình đã có trao đổi rất sôi nổi về việc có khi nào quyền truy cập Internet sẽ trở thành quyền con người, giống như quyền tiếp cận nguồn nước sạch. Câu trả lời là còn rất lâu nữa, nhưng đó là điều chúng ta cần hướng tới.&lt;/p&gt;
 
-&lt;p&gt;P.S. 3. Về luật bảo mật thông tin cá nhân của Châu Âu (GDPR), mình chưa hề nhận được email nào của các công ty dịch vụ trên Internet ở Việt Nam. Có lẽ các công ty này cũng không có ý định kinh doanh ở Châu Âu nên họ cũng ko cần quan tâm GDPR.&lt;/p&gt;</content><author><name></name></author><category term="opinion" /><summary type="html">“In a walled garden” - “Trong mảnh vườn rào kín” là thuật ngữ quen thuộc để ám chỉ hệ sinh thái của Apple. Tuy nhiên, bài này sẽ không bàn đến Apple mà là về cảm giác khi sống đằng sau The Great Firewall ở Bắc Kinh.</summary></entry></feed>
+&lt;p&gt;P.S. 3. Về luật bảo mật thông tin cá nhân của Châu Âu (GDPR), mình chưa hề nhận được email nào của các công ty dịch vụ trên Internet ở Việt Nam. Có lẽ các công ty này cũng không có ý định kinh doanh ở Châu Âu nên họ cũng ko cần quan tâm GDPR.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Jun 2018 00:38:27 +0900</pubDate>
+        <link>http://localhost:4000/trong-manh-vuon-rao-kin</link>
+        <guid isPermaLink="true">http://localhost:4000/trong-manh-vuon-rao-kin</guid>
+      </item>
+    
+      <item>
+        <title>Hello, Mixyll</title>
+        <description>&lt;p&gt;Hello.&lt;/p&gt;
+
+&lt;p&gt;Mixyll (Minimal version of &lt;a href=&quot;https://github.com/johno/pixyll&quot;&gt;Pixyll&lt;/a&gt;) is a simple, beautiful theme for Jekyll based on the popular Jekyll theme &lt;a href=&quot;https://github.com/johno/pixyll&quot;&gt;Pixyll&lt;/a&gt; by &lt;a href=&quot;http://johnotander.com&quot;&gt;John Otander&lt;/a&gt; that emphasizes content rather than aesthetic fluff. It’s mobile &lt;em&gt;first&lt;/em&gt;, fluidly responsive, and delightfully lightweight.&lt;/p&gt;
+
+&lt;p&gt;It’s pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+  &lt;/p&gt;
+  &lt;footer&gt;&lt;cite title=&quot;Antoine de Saint-Exupéry&quot;&gt;Antoine de Saint-Exupéry&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;where-is-it&quot;&gt;Where is it?&lt;/h2&gt;
+
+&lt;p&gt;Checkout the &lt;a href=&quot;https://github.com/saikiransripada/mixyll&quot;&gt;Github repository&lt;/a&gt; to download it, request a feature, or report a bug.&lt;/p&gt;
+
+&lt;p&gt;It’s free, and open source (&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt;).&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Jun 2014 00:31:19 +0900</pubDate>
+        <link>http://localhost:4000/welcome-to-mixyll</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome-to-mixyll</guid>
+      </item>
+    
+      <item>
+        <title>Mixyll in Action</title>
+        <description>&lt;p&gt;There is a significant amount of subtle, yet precisely calibrated, styling to ensure
+that your content is emphasized while still looking aesthetically pleasing.&lt;/p&gt;
+
+&lt;p&gt;All links are easy to &lt;a href=&quot;#&quot;&gt;locate and discern&lt;/a&gt;, yet don’t detract from the &lt;a href=&quot;#&quot;&gt;harmony
+of a paragraph&lt;/a&gt;. The &lt;em&gt;same&lt;/em&gt; goes for italics and &lt;strong&gt;bold&lt;/strong&gt; elements. Even the the strikeout
+works if &lt;del&gt;for some reason you need to update your post&lt;/del&gt;. For consistency’s sake,
+&lt;ins&gt;The same goes for insertions&lt;/ins&gt;, of course.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-with-syntax-highlighting&quot;&gt;Code, with syntax highlighting&lt;/h3&gt;
+
+&lt;p&gt;Here’s an example of some ruby code with line anchors.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# The most awesome of classes&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Awesome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+  &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EvenMoreAwesome&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;validates_presence_of&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:something&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;validates&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;email_format: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;favorite_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'created awesomeness'&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;email_format&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/\S+@\S+\.\S+/&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here’s some CSS:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.foobar&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* Named colors rule */&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;tomato&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here’s some JavaScript:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isPresent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'is-present'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doStuff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;things&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isPresent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;things&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;doOtherStuff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;things&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here’s some HTML:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;m0 p0 bg-blue white&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;h1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hello, world!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;headings&quot;&gt;Headings!&lt;/h1&gt;
+
+&lt;p&gt;They’re responsive, and well-proportioned (in &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;line-height&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt;).
+They also heavily rely on the awesome utility, &lt;a href=&quot;http://basscss.com&quot;&gt;BASSCSS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;they-draw-the-perfect-amount-of-attention&quot;&gt;They draw the perfect amount of attention&lt;/h5&gt;
+
+&lt;p&gt;This allows your content to have the proper informational and contextual hierarchy. Yay.&lt;/p&gt;
+
+&lt;h3 id=&quot;there-are-lists-too&quot;&gt;There are lists, too&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apples&lt;/li&gt;
+  &lt;li&gt;Oranges&lt;/li&gt;
+  &lt;li&gt;Potatoes&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mow the lawn&lt;/li&gt;
+  &lt;li&gt;Feed the dog&lt;/li&gt;
+  &lt;li&gt;Dance&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;images-look-great-too&quot;&gt;Images look great, too&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png&quot; alt=&quot;desk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png&quot; alt=&quot;desk&quot; /&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;there-are-also-pretty-colors&quot;&gt;There are also pretty colors&lt;/h3&gt;
+
+&lt;p&gt;Also the result of &lt;a href=&quot;http://basscss.com&quot;&gt;BASSCSS&lt;/a&gt;, you can &lt;span class=&quot;bg-dark-gray white&quot;&gt;highlight&lt;/span&gt; certain components
+of a &lt;span class=&quot;red&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;mid-gray&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;green&quot;&gt;CSS&lt;/span&gt; &lt;span class=&quot;orange&quot;&gt;classes&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;I don’t recommend using blue, though. It looks like a &lt;span class=&quot;blue&quot;&gt;link&lt;/span&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes!&lt;/h3&gt;
+
+&lt;p&gt;Markdown footnotes are supported, and they look great! Simply put e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;[^1]&lt;/code&gt; where you want the footnote to appear,&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and then add
+the reference at the end of your markdown.&lt;/p&gt;
+
+&lt;h3 id=&quot;stylish-blockquotes-included&quot;&gt;Stylish blockquotes included&lt;/h3&gt;
+
+&lt;p&gt;You can use the markdown quote syntax, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; for simple quotes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, you need to inject html if you’d like a citation footer. I will be working on a way to
+hopefully sidestep this inconvenience.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+  &lt;/p&gt;
+  &lt;footer&gt;&lt;cite title=&quot;Antoine de Saint-Exupéry&quot;&gt;Antoine de Saint-Exupéry&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
+
+&lt;p&gt;Tables represent tabular data and can be built using markdown syntax.  They are rendered responsively in Mixyll for a variety of screen widths.&lt;/p&gt;
+
+&lt;p&gt;Here’s a simple example of a table:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Quantity&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Orange&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$0.99&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Pineapple&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$2.99&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Banana&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$0.39&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;strong&gt;$6.14&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A table must have a body of one or more rows, but can optionally also have a header or footer.&lt;/p&gt;
+
+&lt;p&gt;The cells in a column, including the header row cell, can either be aligned:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;left,&lt;/li&gt;
+  &lt;li&gt;right or&lt;/li&gt;
+  &lt;li&gt;center.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most inline text formatting is available in table cells, block-level formatting are not.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Default header&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left header&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center header&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Default&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Left&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Center&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Right&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;&lt;em&gt;Bold italic&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;monospace&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;link text&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;del&gt;Strikeout&lt;/del&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;ins&gt;Insertion&lt;ins&gt;&lt;/ins&gt;&lt;/ins&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;line&lt;br /&gt;break&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;“Smart quotes”&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;mark&gt;highlight&lt;/mark&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span class=&quot;green&quot;&gt;green&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footnote&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;sub&gt;subscript&lt;/sub&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;sup&gt;superscript&lt;/sup&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span class=&quot;red&quot;&gt;red&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;theres-more-being-added-all-the-time&quot;&gt;There’s more being added all the time&lt;/h3&gt;
+
+&lt;p&gt;Checkout the &lt;a href=&quot;https://github.com/saikiransripada/mixyll&quot;&gt;Github repository&lt;/a&gt; to request,
+or add, features.&lt;/p&gt;
+
+&lt;p&gt;Happy writing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Important information that may distract from the main text can go in footnotes. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Footnotes will work in tables since they’re just links. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 10 Jun 2014 21:31:19 +0900</pubDate>
+        <link>http://localhost:4000/see-mixyll-in-action</link>
+        <guid isPermaLink="true">http://localhost:4000/see-mixyll-in-action</guid>
+      </item>
+    
+  </channel>
+</rss>

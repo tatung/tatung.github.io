@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IoT và Bão &#8211; 6fingers.me</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.">
+    <meta name="robots" content="all">
+    <meta name="author" content="Tung D. Ta">
+    <meta name="keywords" content="promotion">
+    <link rel="canonical" href="http://localhost:4000/IoT-va-Bao">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for 6fingers.me" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css?202010071129" type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/v4-shims.min.css    ">
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="IoT và Bão">
+    <meta property="og:description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.">
+    <meta property="og:url" content="http://localhost:4000/IoT-va-Bao">
+    <meta property="og:site_name" content="6fingers.me">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+        <meta name="twitter:site" content="@tatung2112" />
+        <meta name="twitter:creator" content="@tatung2112" />
+    
+    <meta name="twitter:title" content="IoT và Bão" />
+    <meta name="twitter:description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making." />
+    <meta name="twitter:url" content="http://localhost:4000/IoT-va-Bao" />
+    
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    
+</head>
+
+<body class="site animated fade-in-down">
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="/" class="site-title">6fingers.me</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a class="nav-link" href="/about/">About</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/contact/">Say Hello</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1>IoT và Bão</h1>
+  <span class="post-meta">Nov 9, 2019 |</span>
+  
+  <span class="post-meta small">
+  
+    4 minute read
+  
+  </span>
+</div>
+
+<article class="post-content">
+  <p>Chắc hẳn mọi người vẫn chưa quên mức độ tàn phá của cơn bão số 19 đổ bộ vào Tokyo gần 3 tuần trước. Siêu bão càn quét vào gây lụt lội cũng như khiến không ít nhà phải đi sơ tán trong đêm. Tối hôm đó thứ Bảy, chị Budo nhà mình thì vẫn ăn no ngủ kĩ, 8h lóp ngóp bò lên giường. Tuy nhiên, hai bố mẹ thì ngồi lo lắng đợi lệnh sơ tán. Khổ, nhà ở tầng 7 mà vẫn sợ bị lụt. Mình thì nghĩ nhà cao tầng thì sợ quái gì. Lụt mà leo lên được tầng 7 thì có mà loạn. Có khi ở nhà còn an toàn hơn ở chỗ sơ tán. Nhưng nghĩ lại, nếu lụt thì không thể đi đâu. Mà nhà mình phần hệ thống cấp điện lại để ở tầng 1, nên nếu lụt thì cũng đi tong cả điện lẫn nước. Quan trọng nhất, chị Budo cả tuần tập chạy hăng say để hôm sau Chủ Nhật tham gia hội thể dục thể thao ở trường, nếu lụt thì sẽ bị huỷ. Thật là phí! Bu Hồng phải cài đến 3 cái app vào điện thoại để theo dõi. Mấy cái app này ngoài push thông tin dự báo thời tiết với thông tin sơ tán, thì còn có theo dõi mực nước sông theo thời gian thực. Ở bờ sông nhà mình có 2 cái camera, hai vợ chồng ngồi hồi hộp theo dõi mực nước qua 2 camera này. Từ lúc nước dâng qua nửa chân cầu, rồi 2/3 chân cầu, rồi tràn vào bờ, tràn mép đài quan trắc gần đấy. Rất may là nước chỉ dâng tới đó rồi thôi, chứ dâng nữa là không đợi lệnh, cả nhà chắc cũng ô áo xách cặp đi sơ tán. Sáng hôm sau trời quang mây tạnh, cả nhà thở phào, chuẩn bị đồ đi tham gia hội thể dục thể thao của Budo.</p>
+
+<p>Câu chuyện sẽ chẳng có gì nếu mình không bất chợt nhớ tới việc thỉnh thoảng mình hay được hỏi về chuyên ngành nghiên cứu của mình là gì. Mình hay trả lời là em làm về IoT ạ. Sau đấy là một loạt giải thích IoT là gì, cụ thể là làm cái gì trong IoT, v.v. Nghĩ về câu chuyện camera theo dõi mực nước sông trong cơn bão ở trên, mình nghĩ IoT là đây chứ đâu. Mực nước sông đương nhiên theo dõi bằng cảm biến mực nước sẽ chính xác hơn. Tuy nhiên, ở Nhật có một khái niệm là 安全安心 - an toàn và an tâm. Trong cơn bão 19 vừa qua an toàn đó là việc sức khoẻ cũng như tài sản được bảo vệ trước thiên tai, còn an tâm chính là việc mọi người biết là mình sẽ được an toàn. Một ví dụ đơn cử đó là việc hai vợ chồng mình có thể theo dõi mực nước sông một cách trực quan, mặc dù biết là các cơ quan khí tượng cũng có quan trắc sát sao mực nước lũ bằng các hệ thống hiện đại khác. Việc thêm thông tin về hình ảnh trực quan giống như topping một quả cherry trên chiếc bánh kem. Không có thì cũng không chết ai, nhưng có thì mức độ hoàn thiện của cả hệ thống sẽ được nâng lên gấp nhiều lần. IoT ngoài là một mạng lưới các cảm biến, còn bao gồm cả yếu tố con người. Và chính con người sẽ trở thành trung tâm của hệ thống IoT tương lai.</p>
+
+<p>Trên đây chỉ là một ví dụ đơn giản về hệ thống quan trắc đã và đang được triển khai rất nhiều ở Nhật. Ngoài ra còn có rất nhiều các hệ thống khác được Nhật triển khai sâu rộng ở nhiều tầng công nghệ khác nhau. Mình vẫn luôn tự hỏi vậy những hệ thống như vậy nên được thiết kế và vận hành ra sao, Việt Nam và người Việt có thể đóng góp gì cho chuỗi giá trị của thị trường IoT toàn cầu. Cuối tuần sau, sẽ diễn ra Summit của các anh chị em làm việc và nghiên cứu ở Nhật, mình nhất định sẽ đem những câu hỏi này hỏi trong các phiên thảo luận, ít nhất là phiên về IoT.</p>
+
+<p>PS 1:</p>
+
+<ul>
+  <li>
+    <p>Chương trình Vietnam Summit in Japan 2019 (thứ Bảy, 16/11/2019) vẫn đang mở bán vé (miễn phí) tham dự sự kiện vào ban ngày.</p>
+  </li>
+  <li>
+    <p>Gọi là bán vé mà bán miễn phí, cốt là để BTC nắm được số lượng người tham dự để chuẩn bị cho tốt.</p>
+  </li>
+</ul>
+
+<p>PS 2:</p>
+
+<ul>
+  <li>Mình sẽ tham gia tổ chức thảo luận cho phiên thảo luận về IoT cùng các anh chị đang nghiên cứu giảng dạy ở các trường đại học cũng như các anh chị đang làm việc ở một số công ty ở Nhật. Hy vọng sẽ được gặp nhiều bạn bè trong phiên thảo luận này.</li>
+</ul>
+
+</article>
+
+
+  <div class="share-page">
+  <div class="share-links">
+    Share:
+
+    
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=IoT+v%C3%A0+B%C3%A3o&amp;url=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao&amp;title=IoT+v%C3%A0+B%C3%A3o" rel="nofollow" target="_blank" title="Share on Reddit"></a>
+    
+
+    
+
+    
+      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao&amp;t=IoT+v%C3%A0+B%C3%A3o" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <h3 class="related-post-title">Related Posts</h3>
+  <ul class="related-posts">
+    
+    <li>
+      <a href="/noi-buon-chien-tranh" class="post-link">
+          Nỗi buồn chiến tranh - Bảo Ninh
+      </a>
+    </li>
+    
+    <li>
+      <a href="/trong-manh-vuon-rao-kin" class="post-link">
+          Trong mảnh vườn rào kín
+      </a>
+    </li>
+    
+    <li>
+      <a href="/welcome-to-mixyll" class="post-link">
+          Hello, Mixyll
+      </a>
+    </li>
+    
+    <li>
+      <a href="/see-mixyll-in-action" class="post-link">
+          Mixyll in Action
+      </a>
+    </li>
+    
+  </ul>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <div class="left">
+      <small>
+        &copy; 2020 6fingers.me
+      </small>
+    </div>
+    
+      <div class="social-icons right">
+  
+    <a class="fab fa-linkedin" href="https://www.linkedin.com/in/tatung2112" target="_blank"></a>
+    
+  
+    <a class="fab fa-github" href="https://github.com/tatung" target="_blank"></a>
+  
+  
+    <a class="fab fa-twitter" href="https://twitter.com/tatung2112" target="_blank"></a>
+  
+  
+  
+    <a class="fas fa-envelope" href="mailto:hello@tungtd.com"></a>
+  
+  <a class="fas fa-rss" href="/feed.xml" target="_blank"></a>
+</div>
+<div class="clearfix"></div>
+
+    
+  </div>
+</footer>
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js")
+    }
+</script>
+
+</body>
+</html>
