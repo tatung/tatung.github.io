@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Trong mảnh vườn rào kín"
-date:   2018-06-10 00:38:27
+title: Trong mảnh vườn rào kín
+date: 2018-06-10 00:38:27
+thumbnail: /asset/img/uploads/kyoto-ryoan-ji_mg_4512.jpg
 categories: opinion
 ---
 “In a walled garden” - “Trong mảnh vườn rào kín” là thuật ngữ quen thuộc để ám chỉ hệ sinh thái của Apple. Tuy nhiên, bài này sẽ không bàn đến Apple mà là về cảm giác khi sống đằng sau The Great Firewall ở Bắc Kinh.
+
+![](/asset/img/uploads/kyoto-ryoan-ji_mg_4512.jpg)
 
 Cách đây 4 năm, mình có cơ hội được đi thực tập ở Bắc Kinh 3 tháng. Kể về trải nghiệm ở kinh đô của “thiên triều” thì có nhiều điều, cả hay ho lẫn quái đản. Nhưng một trong những điều nổi tiếng nhất đó là hệ thống kiểm soát “an ninh mạng”. Từ sau 2008 khi Google quyết định rời trụ sở từ Trung Hoa Đại Lục sang Hương Cảng (Hongkong), có thể nói toàn bộ không gian mạng ở Đại Lục là sân chơi của các công ty nội địa. Điều này có lẽ tốt cho sự phát triển của nền kinh tế Trung Quốc. Chẳng vậy mà những Alibaba, Tencent, hay Xiaomi càng ngày càng lớn mạnh và thể hiện vai trò ngày càng quan trọng trong nền kinh tế thế giới (cả industry lẫn academia). 
 
