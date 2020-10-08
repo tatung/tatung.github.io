@@ -1,7 +1,7 @@
 ---
 title: Nỗi buồn chiến tranh - Bảo Ninh
 layout: post
-date: '2018-10-19 00:38:27 +0900'
+date: 2018-10-19 00:38:27
 thumbnail: "/asset/img/sach-noi-buon-chien-tranh.jpg"
 categories: book
 ---
