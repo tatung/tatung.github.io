@@ -9,32 +9,13 @@
     
         
             <item>
-                <title>Test Post</title>
-                <link>http://localhost:4000/test-post</link>
-                <content:encoded>
-                    <![CDATA[
-                    <p>This is just a post for test the integration with Netlify CMS</p>
-
-<p><img src="/asset/img/uploads/img_0562.jpg" alt="" /></p>
-
-                    ]]>
-                </content:encoded>
-                <guid isPermaLink="false">/test-post</guid>
-                <description>
-                    
-                </description>
-                <pubDate>Thu, 08 Oct 2020 15:12:41 +0900</pubDate>
-                <author>Tung D. Ta</author>
-            </item>
-        
-    
-        
-            <item>
                 <title>IoT và Bão</title>
                 <link>http://localhost:4000/IoT-va-Bao</link>
                 <content:encoded>
                     <![CDATA[
-                    <p>Chắc hẳn mọi người vẫn chưa quên mức độ tàn phá của cơn bão số 19 đổ bộ vào Tokyo gần 3 tuần trước. Siêu bão càn quét vào gây lụt lội cũng như khiến không ít nhà phải đi sơ tán trong đêm. Tối hôm đó thứ Bảy, chị Budo nhà mình thì vẫn ăn no ngủ kĩ, 8h lóp ngóp bò lên giường. Tuy nhiên, hai bố mẹ thì ngồi lo lắng đợi lệnh sơ tán. Khổ, nhà ở tầng 7 mà vẫn sợ bị lụt. Mình thì nghĩ nhà cao tầng thì sợ quái gì. Lụt mà leo lên được tầng 7 thì có mà loạn. Có khi ở nhà còn an toàn hơn ở chỗ sơ tán. Nhưng nghĩ lại, nếu lụt thì không thể đi đâu. Mà nhà mình phần hệ thống cấp điện lại để ở tầng 1, nên nếu lụt thì cũng đi tong cả điện lẫn nước. Quan trọng nhất, chị Budo cả tuần tập chạy hăng say để hôm sau Chủ Nhật tham gia hội thể dục thể thao ở trường, nếu lụt thì sẽ bị huỷ. Thật là phí! Bu Hồng phải cài đến 3 cái app vào điện thoại để theo dõi. Mấy cái app này ngoài push thông tin dự báo thời tiết với thông tin sơ tán, thì còn có theo dõi mực nước sông theo thời gian thực. Ở bờ sông nhà mình có 2 cái camera, hai vợ chồng ngồi hồi hộp theo dõi mực nước qua 2 camera này. Từ lúc nước dâng qua nửa chân cầu, rồi 2/3 chân cầu, rồi tràn vào bờ, tràn mép đài quan trắc gần đấy. Rất may là nước chỉ dâng tới đó rồi thôi, chứ dâng nữa là không đợi lệnh, cả nhà chắc cũng ô áo xách cặp đi sơ tán. Sáng hôm sau trời quang mây tạnh, cả nhà thở phào, chuẩn bị đồ đi tham gia hội thể dục thể thao của Budo.</p>
+                    <p><img src="/asset/img/typhoon_no19.jpg" alt="" /></p>
+
+<p>Chắc hẳn mọi người vẫn chưa quên mức độ tàn phá của cơn bão số 19 đổ bộ vào Tokyo gần 3 tuần trước. Siêu bão càn quét vào gây lụt lội cũng như khiến không ít nhà phải đi sơ tán trong đêm. Tối hôm đó thứ Bảy, chị Budo nhà mình thì vẫn ăn no ngủ kĩ, 8h lóp ngóp bò lên giường. Tuy nhiên, hai bố mẹ thì ngồi lo lắng đợi lệnh sơ tán. Khổ, nhà ở tầng 7 mà vẫn sợ bị lụt. Mình thì nghĩ nhà cao tầng thì sợ quái gì. Lụt mà leo lên được tầng 7 thì có mà loạn. Có khi ở nhà còn an toàn hơn ở chỗ sơ tán. Nhưng nghĩ lại, nếu lụt thì không thể đi đâu. Mà nhà mình phần hệ thống cấp điện lại để ở tầng 1, nên nếu lụt thì cũng đi tong cả điện lẫn nước. Quan trọng nhất, chị Budo cả tuần tập chạy hăng say để hôm sau Chủ Nhật tham gia hội thể dục thể thao ở trường, nếu lụt thì sẽ bị huỷ. Thật là phí! Bu Hồng phải cài đến 3 cái app vào điện thoại để theo dõi. Mấy cái app này ngoài push thông tin dự báo thời tiết với thông tin sơ tán, thì còn có theo dõi mực nước sông theo thời gian thực. Ở bờ sông nhà mình có 2 cái camera, hai vợ chồng ngồi hồi hộp theo dõi mực nước qua 2 camera này. Từ lúc nước dâng qua nửa chân cầu, rồi 2/3 chân cầu, rồi tràn vào bờ, tràn mép đài quan trắc gần đấy. Rất may là nước chỉ dâng tới đó rồi thôi, chứ dâng nữa là không đợi lệnh, cả nhà chắc cũng ô áo xách cặp đi sơ tán. Sáng hôm sau trời quang mây tạnh, cả nhà thở phào, chuẩn bị đồ đi tham gia hội thể dục thể thao của Budo.</p>
 
 <p>Câu chuyện sẽ chẳng có gì nếu mình không bất chợt nhớ tới việc thỉnh thoảng mình hay được hỏi về chuyên ngành nghiên cứu của mình là gì. Mình hay trả lời là em làm về IoT ạ. Sau đấy là một loạt giải thích IoT là gì, cụ thể là làm cái gì trong IoT, v.v. Nghĩ về câu chuyện camera theo dõi mực nước sông trong cơn bão ở trên, mình nghĩ IoT là đây chứ đâu. Mực nước sông đương nhiên theo dõi bằng cảm biến mực nước sẽ chính xác hơn. Tuy nhiên, ở Nhật có một khái niệm là 安全安心 - an toàn và an tâm. Trong cơn bão 19 vừa qua an toàn đó là việc sức khoẻ cũng như tài sản được bảo vệ trước thiên tai, còn an tâm chính là việc mọi người biết là mình sẽ được an toàn. Một ví dụ đơn cử đó là việc hai vợ chồng mình có thể theo dõi mực nước sông một cách trực quan, mặc dù biết là các cơ quan khí tượng cũng có quan trắc sát sao mực nước lũ bằng các hệ thống hiện đại khác. Việc thêm thông tin về hình ảnh trực quan giống như topping một quả cherry trên chiếc bánh kem. Không có thì cũng không chết ai, nhưng có thì mức độ hoàn thiện của cả hệ thống sẽ được nâng lên gấp nhiều lần. IoT ngoài là một mạng lưới các cảm biến, còn bao gồm cả yếu tố con người. Và chính con người sẽ trở thành trung tâm của hệ thống IoT tương lai.</p>
 
@@ -43,12 +24,8 @@
 <p>PS 1:</p>
 
 <ul>
-  <li>
-    <p>Chương trình Vietnam Summit in Japan 2019 (thứ Bảy, 16/11/2019) vẫn đang mở bán vé (miễn phí) tham dự sự kiện vào ban ngày.</p>
-  </li>
-  <li>
-    <p>Gọi là bán vé mà bán miễn phí, cốt là để BTC nắm được số lượng người tham dự để chuẩn bị cho tốt.</p>
-  </li>
+  <li>Chương trình Vietnam Summit in Japan 2019 (thứ Bảy, 16/11/2019) vẫn đang mở bán vé (miễn phí) tham dự sự kiện vào ban ngày.</li>
+  <li>Gọi là bán vé mà bán miễn phí, cốt là để BTC nắm được số lượng người tham dự để chuẩn bị cho tốt.</li>
 </ul>
 
 <p>PS 2:</p>
