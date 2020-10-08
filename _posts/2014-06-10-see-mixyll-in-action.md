@@ -4,6 +4,7 @@ title:      Mixyll in Action
 date:       2014-06-10 12:31:19
 summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: jekyll mixyll
+thumbnail: https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png
 ---
 
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
