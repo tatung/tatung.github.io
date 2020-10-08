@@ -35,4 +35,8 @@
 <url>
 <loc>http://localhost:4000/page2/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/admin/</loc>
+<lastmod>2020-10-08T11:44:43+09:00</lastmod>
+</url>
 </urlset>
