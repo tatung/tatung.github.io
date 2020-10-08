@@ -17,7 +17,9 @@ layout: default
           </p>
           <a href="{{ post.url | relative_url }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
           {% if post.thumbnail %}
-            <a href="{{ post.url | relative_url }}" class="post-link"><img src="{{ post.thumbnail }}" width="50%" height="50%"/></a><br>
+            <div class="thumbnail-container">
+              <a href="{{ post.url | relative_url }}" class="post-link"><img src="{{ post.thumbnail }}"/></a><br>
+            </div>
           {% endif %}
           <span class="post-summary">
             {% if post.summary %}

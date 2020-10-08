@@ -9,6 +9,27 @@
     
         
             <item>
+                <title>Test Post</title>
+                <link>http://localhost:4000/test-post</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>This is just a post for test the integration with Netlify CMS</p>
+
+<p><img src="/asset/img/uploads/img_0562.jpg" alt="" /></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/test-post</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Thu, 08 Oct 2020 15:12:41 +0900</pubDate>
+                <author>Tung D. Ta</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>IoT và Bão</title>
                 <link>http://localhost:4000/IoT-va-Bao</link>
                 <content:encoded>
