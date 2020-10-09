@@ -16,7 +16,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for 6fingers.me" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css?202010092015" type="text/css">
+    <link rel="stylesheet" href="/css/style.css?202010092101" type="text/css">
 
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -118,9 +118,12 @@
 </div>
 
 <article class="post-content">
-  <p>Let’s assume that you want to have <a href="http://domain1.com">http://domain1.com</a> and <a href="http://domain2.com">http://domain2.com</a> point to 2 different Wordpress instances in a sigle Bitnami - Amazon EC2 instance. This Bitnami - Amazon EC2 instance has also been installed with Wordpress already.</p>
+  <p><img src="/asset/img/uploads/wordpress.jpg" alt="" /></p>
+
+<p>Let’s assume that you want to have <a href="http://domain1.com">http://domain1.com</a> and <a href="http://domain2.com">http://domain2.com</a> point to 2 different Wordpress instances in a sigle Bitnami - Amazon EC2 instance. This Bitnami - Amazon EC2 instance has also been installed with Wordpress already.</p>
 
 <h2 id="configure-apache-to-accept-2-domains">Configure Apache to accept 2 domains</h2>
+
 <p>Make sure to uncomment (delete the <code class="highlighter-rouge">#</code> character in the beginning) this line in <code class="highlighter-rouge">/opt/bitnami/apache2/conf</code></p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	Include conf/extra/httpd-vhosts.conf
@@ -189,6 +192,7 @@ sudo ./ctlscript.sh restart apache
 </code></pre></div></div>
 
 <h2 id="install-additional-wordpress-instance">Install additional wordpress instance</h2>
+
 <h3 id="create-database-for-new-wordpress-instance">Create database for new Wordpress instance</h3>
 
 <p>Get into MySQL prompt:</p>
@@ -209,6 +213,7 @@ exit
 </code></pre></div></div>
 
 <h3 id="install-new-wordpress-instance">Install new Wordpress instance</h3>
+
 <p>Download and decompress wordpress</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://wordpress.org/latest.tar.gz
@@ -231,14 +236,14 @@ sudo rsync -avP ~/wordpress/ /opt/bitnami/apps/wordpress2
 
 <p>Go to newly copied <code class="highlighter-rouge">/opt/bitnami/apps/wordpress2</code> and edit <code class="highlighter-rouge">wp-config.php</code></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//  **MySQL settings - You can get this info from your web host**  //
+/ **The name of the database for WordPress */
 define('DB_NAME', 'Wordpress2');
 
 /** MySQL database username */
 define('DB_USER', 'seconduser');
 
-/** MySQL database password */
+/\*\* MySQL database password* /
 define('DB_PASSWORD', 'password_for_seconduser');	
 </code></pre></div></div>
 
@@ -330,7 +335,7 @@ define('DB_PASSWORD', 'password_for_seconduser');
     </li>
     
     <li>
-      <a href="/Ru-o-u-Nha-t" class="post-link">
+      <a href="/R%C6%B0%E1%BB%A3u-Nh%E1%BA%ADt" class="post-link">
           Chọn mua rượu Nhật
       </a>
     </li>

@@ -117,13 +117,15 @@
                 <link>http://localhost:4000/Change-location-of-Amazon-Drive-sync-folder</link>
                 <content:encoded>
                     <![CDATA[
-                    <p>Owning a Amazon Prime gives you the perk of unlimitedly storing your photos on Amazon Drive. It also comes with a desktop client for automatically syncing your photos to your cloud folder. However, one of the most irritated thing with this client is that, you cannot set the syncing folder to your external hard drive. It is possible to set it to a different partition as long as it is in your “internal” hard drive (Happy to get notification from Mac saying that you are running out of storage - thanks to your huge amount of photos synced from Amazon Drive). Well, there is a solution for this on Mac (it seems that there is a solution for Windows by editing registry).</p>
+                    <p><img src="/asset/img/uploads/cloud-backup.jpg" alt="" /></p>
+
+<p>Owning a Amazon Prime gives you the perk of unlimitedly storing your photos on Amazon Drive. It also comes with a desktop client for automatically syncing your photos to your cloud folder. However, one of the most irritated thing with this client is that, you cannot set the syncing folder to your external hard drive. It is possible to set it to a different partition as long as it is in your “internal” hard drive (Happy to get notification from Mac saying that you are running out of storage - thanks to your huge amount of photos synced from Amazon Drive). Well, there is a solution for this on Mac (it seems that there is a solution for Windows by editing registry).</p>
 
 <ul>
   <li>Install the Amazon Drive client as usual. When it asks you to sync from your cloud to your local, just choose skip (or later).</li>
   <li>Turn off Amazon Drive client (the cloud icon on the notification bar)</li>
   <li>Plug your external hard drive in</li>
-  <li>In your Finder, go to:<br />
+  <li>In your Finder, go to:\
 <code class="highlighter-rouge">/Users/USER_NAME/Library/Application Support/Amazon Cloud Drive</code></li>
   <li>Open file <code class="highlighter-rouge">amzn1.account.#########-settings.json</code> with your text editor, you will see somethings like this:</li>
 </ul>
@@ -135,8 +137,7 @@
 </code></pre></div></div>
 
 <ul>
-  <li>Just change the value of <code class="highlighter-rouge">SyncPath</code> to your prefered external hard drive. It should be somethings like `
-“SyncPath”: “/Volumes/ExternalDrive/Amazon Drive”`</li>
+  <li>Just change the value of <code class="highlighter-rouge">SyncPath</code> to your prefered external hard drive. It should be somethings like <code class="highlighter-rouge">"SyncPath": "/Volumes/ExternalDrive/Amazon Drive"</code></li>
   <li>Start Amazon Drive client, it will ask you the location of sync folder, just click Next and the client will sync your cloud folder to your external hard drive</li>
 </ul>
 
@@ -154,10 +155,12 @@
         
             <item>
                 <title>Chọn mua rượu Nhật</title>
-                <link>http://localhost:4000/Ru-o-u-Nha-t</link>
+                <link>http://localhost:4000/R%C6%B0%E1%BB%A3u-Nh%E1%BA%ADt</link>
                 <content:encoded>
                     <![CDATA[
                     <p>Vừa rồi có anh bạn hỏi xem mua rượu Nhật về biếu thì mua rượu gì. Mình không uống rượu mấy nhưng do từng mua rồi nên có tìm hiểu qua một tí.</p>
+
+<p><img src="/asset/img/uploads/sake.jpg" alt="" /></p>
 
 <p>Mua rượu ở Nhật thì rất đa dạng. Có rượu tây, rượu tàu, rượu gạo, rượu vang, và nhiều loại nữa. Trong số này, rượu gạo có vẻ là thuần Nhật hơn cả.</p>
 
@@ -190,19 +193,19 @@ Rượu gạo thì làm từ gạo. Nhưng mà có loại được làm hoàn to
 <table>
   <thead>
     <tr>
-      <th style="text-align: right">Loại</th>
+      <th>Loại</th>
       <th>Thành phần</th>
       <th>Vị</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: right">純米</td>
+      <td>純米</td>
       <td>Gạo + Men gạo</td>
       <td>Đậm + Ngọt</td>
     </tr>
     <tr>
-      <td style="text-align: right">非純米</td>
+      <td>非純米</td>
       <td>Gạo + Men gạo + Men bảo quản</td>
       <td>Nhạt + Cay</td>
     </tr>
@@ -226,45 +229,31 @@ Từ 3 tiêu chí trên, người ta phân rượu gạo Nhật ra làm mấy lo
 
 <ul>
   <li>Gạo mài dưới 30%
-    <ul>
-      <li>Rượu thường (普通酒 - Futsu Shu). Nghe đồn không phân loại rượu gạo thuần chủng hay rượu pha, chắc tại không đáng phân loại.</li>
-    </ul>
-  </li>
+		- Rượu thường (普通酒 - Futsu Shu). Nghe đồn không phân loại rượu gạo thuần chủng hay rượu pha, chắc tại không đáng phân loại.</li>
   <li>Gạo mài 30 - 40%
-    <ul>
-      <li>Thuần gạo: rượu thuần gạo (純米酒 - Junmai Shu)</li>
-      <li>Không thuần gạo: rượu pha loại 1 (本醸造酒 - Hon Jouzou Shu)</li>
-    </ul>
-  </li>
+		- Thuần gạo: rượu thuần gạo (純米酒 - Junmai Shu)
+		- Không thuần gạo: rượu pha loại 1 (本醸造酒 - Hon Jouzou Shu)</li>
   <li>Gạo mài 40 - 50% chế biến ở nhiệt độ thường
-    <ul>
-      <li>Thuần gạo: rượu gạo đặc biệt (特別純米酒 - Tokubetsu Junmai Shu)</li>
-      <li>Không thuần gạo: rượu pha loại 1 đặc biệt (特別本醸造酒 - Tokubetsu Hon Jouzou Shu)</li>
-    </ul>
-  </li>
+		- Thuần gạo: rượu gạo đặc biệt (特別純米酒 - Tokubetsu Junmai Shu)
+		- Không thuần gạo: rượu pha loại 1 đặc biệt (特別本醸造酒 - Tokubetsu Hon Jouzou Shu)</li>
   <li>Gạo mài 40 - 50% + lên men ở nhiệt độ thấp
-    <ul>
-      <li>Thuần gạo: rượu gạo ngâm cất (純米吟醸酒 - Junmai Ginjou Shu)</li>
-      <li>Không thuần gạo: rượu pha ngâm cất (吟醸酒 - Ginjou Shu)</li>
-    </ul>
-  </li>
+		- Thuần gạo: rượu gạo ngâm cất (純米吟醸酒 - Junmai Ginjou Shu)
+		- Không thuần gạo: rượu pha ngâm cất (吟醸酒 - Ginjou Shu)</li>
   <li>Gạo mài trên 50% + lên men ở nhiệt độ thấp
- 	- Thuần gạo: rượu gạo tinh chế ngâm cất (純米大吟醸酒 - Junmai Daiginjou Shu)
-    <ul>
-      <li>Không thuần gạo: rượu pha tinh chế ngâm cất (大吟醸酒 - Daiginjou Shu)</li>
-    </ul>
-  </li>
+		- Thuần gạo: rượu gạo tinh chế ngâm cất (純米大吟醸酒 - Junmai Daiginjou Shu)
+		- Không thuần gạo: rượu pha tinh chế ngâm cất (大吟醸酒 - Daiginjou Shu)</li>
 </ul>
 
 <p>Trong đống này, rượu pha tinh chế ngân cất thì nghe đồ là cao cấp nhất, mùi rượu ngào ngạt, vị rượu thì ngấm sâu.</p>
 
 <p>###Bonus
-Ngoài uống rượu gạo bằng chén, bát, người ta còn uống rượu gạo bằng chén gỗ cây Hinoki (檜桝). Uống bằng loại chén gỗ này thì mùi rượu hoà với mùi gỗ rất đặc trưng.</p>
+Ngoài uống rượu gạo bằng chén, bát, người ta còn uống rượu gạo bằng chén gỗ cây Hinoki (檜枡). Uống bằng loại chén gỗ này thì mùi rượu hoà với mùi gỗ rất đặc trưng.</p>
 
+<p><img src="/asset/img/uploads/98002372_custom.jpg" alt="" /></p>
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/Ru-o-u-Nha-t</guid>
+                <guid isPermaLink="false">/R%C6%B0%E1%BB%A3u-Nh%E1%BA%ADt</guid>
                 <description>
                     
                 </description>
@@ -279,7 +268,9 @@ Ngoài uống rượu gạo bằng chén, bát, người ta còn uống rượu 
                 <link>http://localhost:4000/how_to_root_qua_tab_hwt31_-_huawei_mediapad_t2_10_pro</link>
                 <content:encoded>
                     <![CDATA[
-                    <p>This instruction is based on the instruction for Huawei Honor5 in <a href="http://forum.xda-developers.com/honor-5x/development/root-kiw-l24-usa-kiwi-t3305190">xda</a></p>
+                    <p><img src="/asset/img/uploads/hwt31.jpg" alt="" /></p>
+
+<p>This instruction is based on the instruction for Huawei Honor5 in <a href="http://forum.xda-developers.com/honor-5x/development/root-kiw-l24-usa-kiwi-t3305190">xda</a></p>
 
 <p>I was using Mac to root my HWT31, but procedure for Windows seems to be the same.</p>
 
@@ -364,7 +355,6 @@ After reboot into recovery mode (TWRP), you will see Install button, tap on it a
 
 <p>After installing SuperSU, you can reboot to Android and enjoy your rooted HWT31</p>
 
-
                     ]]>
                 </content:encoded>
                 <guid isPermaLink="false">/how_to_root_qua_tab_hwt31_-_huawei_mediapad_t2_10_pro</guid>
@@ -382,9 +372,12 @@ After reboot into recovery mode (TWRP), you will see Install button, tap on it a
                 <link>http://localhost:4000/setup_multiple_wordpress_site_on_bitnami_-_amazon_ec2</link>
                 <content:encoded>
                     <![CDATA[
-                    <p>Let’s assume that you want to have <a href="http://domain1.com">http://domain1.com</a> and <a href="http://domain2.com">http://domain2.com</a> point to 2 different Wordpress instances in a sigle Bitnami - Amazon EC2 instance. This Bitnami - Amazon EC2 instance has also been installed with Wordpress already.</p>
+                    <p><img src="/asset/img/uploads/wordpress.jpg" alt="" /></p>
+
+<p>Let’s assume that you want to have <a href="http://domain1.com">http://domain1.com</a> and <a href="http://domain2.com">http://domain2.com</a> point to 2 different Wordpress instances in a sigle Bitnami - Amazon EC2 instance. This Bitnami - Amazon EC2 instance has also been installed with Wordpress already.</p>
 
 <h2 id="configure-apache-to-accept-2-domains">Configure Apache to accept 2 domains</h2>
+
 <p>Make sure to uncomment (delete the <code class="highlighter-rouge">#</code> character in the beginning) this line in <code class="highlighter-rouge">/opt/bitnami/apache2/conf</code></p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	Include conf/extra/httpd-vhosts.conf
@@ -453,6 +446,7 @@ sudo ./ctlscript.sh restart apache
 </code></pre></div></div>
 
 <h2 id="install-additional-wordpress-instance">Install additional wordpress instance</h2>
+
 <h3 id="create-database-for-new-wordpress-instance">Create database for new Wordpress instance</h3>
 
 <p>Get into MySQL prompt:</p>
@@ -473,6 +467,7 @@ exit
 </code></pre></div></div>
 
 <h3 id="install-new-wordpress-instance">Install new Wordpress instance</h3>
+
 <p>Download and decompress wordpress</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://wordpress.org/latest.tar.gz
@@ -495,14 +490,14 @@ sudo rsync -avP ~/wordpress/ /opt/bitnami/apps/wordpress2
 
 <p>Go to newly copied <code class="highlighter-rouge">/opt/bitnami/apps/wordpress2</code> and edit <code class="highlighter-rouge">wp-config.php</code></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//  **MySQL settings - You can get this info from your web host**  //
+/ **The name of the database for WordPress */
 define('DB_NAME', 'Wordpress2');
 
 /** MySQL database username */
 define('DB_USER', 'seconduser');
 
-/** MySQL database password */
+/\*\* MySQL database password* /
 define('DB_PASSWORD', 'password_for_seconduser');	
 </code></pre></div></div>
 
@@ -527,7 +522,10 @@ define('DB_PASSWORD', 'password_for_seconduser');
                 <link>http://localhost:4000/next_innovations_come_from_the_crowd</link>
                 <content:encoded>
                     <![CDATA[
-                    <h2 id="what-is-innovation">What is innovation?</h2>
+                    <p><img src="/asset/img/uploads/Crowd-Hands-stadium.jpg" alt="" /></p>
+
+<h2 id="what-is-innovation">What is innovation?</h2>
+
 <p>According to Oxford dictionary <a href="http://www.oxforddictionaries.com/definition/english/innovate">1</a>, innovation is defined as the action or process of “Make changes in something established, especially by introducing new methods, ideas, or products”. That means the originality (<strong>novelty</strong>) is one of the most critical points of anything called innovation. In addition to novelty, an innovation has to be applicable and replicable economically in real life. Otherwise, it is useless or simply a lie.</p>
 
 <p>In the very past, before and during the Renaissance, innovations were usually established by some special individuals which were minor part of the population. Besides those individuals’ tremendous efforts which act as leading role in generating innovation, the access to information and knowledge had also substantially contributed to the process of innovating.</p>
@@ -535,6 +533,7 @@ define('DB_PASSWORD', 'password_for_seconduser');
 <p>In human history, it was a long period of time that knowledge was passed and spread by rumor, word-of-mouths or more civilized, by books. Nowadays, computer and the Internet has changed everything. It help to quickly solve complex calculations, to instantly (to some extend) transmit multimedia like text, images, voices or videos, etc. But more importantly, it is acting like the biggest library of human’s knowledge that every can access. It opens and flattens the information availability gap. At this point, it is a very good reason to believe that anyone can become a creator and the next innovation can come from anyone of us.</p>
 
 <h2 id="how-the-crowd-contributes-to-innovations">How the crowd contributes to innovations?</h2>
+
 <p>We are living in the time that there were many “What an era!” had been spoken out to express the amusement and excitement to new innovations. Like no other periods, thank to the flourishment of venture capitalists, the universalization of the Internet, the entrance bar to an industry has been lower and lower that anyone with an idea can quickly entry (The more important question is how to survive after entrying, but it is out of the scope of this article, and in fact, the author also does not have enough information and ability to answer).</p>
 
 <p>###CrowdFunding
@@ -553,9 +552,11 @@ The crowd making here is not the concept of how to form a crowd, but it means <s
 <p>The answer might be because only until recently, with the help of crowdfunding sites, the fund raising has become simpler that everyone can get sufficient financial support. But as mentioned above, crowdfunding sites focus on shortening the journey to mass production. That means, it is supposed that the product has already been well prototyped and can actually work. It turns out that rapid prototyping is one of the keys to have good and actually working products. Rapid prototyping is a concept in which creator utilize a bunch of available tools and technologies to fastest make a working version of the product. The faster you can make the prototype, the higher number of iteration that you can run to refine the product, which in turn, promises increment of final (released) quality. These available tools and technologies I mentioned here is known in software development as open source platform, library, low-cost services like Amazon Cloud Service, Docker, OpenStack, etc., and in hardware as open source hardware, low-cost rapid fabrication tools like Arduino, 3D printer, laser-cutter, silver nano particle ink, etc. Not only the bar to entry the industry has been lowered thank to crowdfunding, but the bar to realize an idea has also lowered thank to those rapid prototyping tools. This leads us to a scene in which many people are empowered with powerful tools to make things that can transform our society. I strongly believe this will make a revolution in how we compete, innovate and improve human life.</p>
 
 <h2 id="make-those-crowd-stuff-happen">Make those Crowd-stuff happen?</h2>
+
 <p>It sounds like those Crowd-stuff are quite fancy. So how to make it happen? Regarding of Crowdfunding, I will not have further comment here as those guys in Kickstarter and Indiegogo are really nailing it. I want to give a little more detail about CrowdSourcing and CrowdMaking which are things that I have been doing recently.</p>
 
 <h3 id="research-in-rapid-prototyping---to-crowdmaking">Research in Rapid Prototyping - To CrowdMaking</h3>
+
 <p>The keypoint to realize CrowdMaking is that everyone can quickly try and realize an idea to evaluate if it is really work or not. Recent developments in technology and new material have brought us a bunch of powerful tools to rapidly fabricate really working prototypes. Among these, our research is focusing on rapid prototyping of electronic circuits. Traditional method to rapidly prototype electronic circuits is to use breadboard to make the wiring. This method is quite convenient to simple electronic circuits but it is escalated quickly when the circuits get more complicated. Another method to make electronic circuit is to use Printed Circuit Board (PCB). However, PCB board is mostly used in mass production as it takes quite long time to make a PCB board (depend on the size of the board also the technology used to fabricate PCB). In our research, we used comodity inkjet printer to print conductive ink into special photo paper. We call this technology Instant Inkjet Circuits. The conductive ink we used here is special Silver Nano-particle Ink that can establish conductivity almost immediately after printing. Thus, we can quickly print conductive pattern at low-cost. However, Instant Inkjet Circuits has some problems that need to be solved in order to broaden its application.</p>
 
 <p><strong>Resistance</strong> - Improve printed conductivity by overprinting
@@ -565,7 +566,9 @@ Although silver is known to have better bulk conductivity than copper, however, 
 Although Instant Inkjet Circuits is very good at prototyping single layered circuits, many applications and electronic circuit schematics require the support of multilayered circuit.</p>
 
 <ul>
-  <li>Make fabrication easy access to every one
+  <li>
+    <p>Make fabrication easy access to every one</p>
+
     <ul>
       <li>Universal availability</li>
       <li>Low-cost</li>
@@ -575,7 +578,6 @@ Although Instant Inkjet Circuits is very good at prototyping single layered circ
 </ul>
 
 <h3 id="research-in-iot-and-sensors---to-crowdsourcing">Research in IoT and sensors - To CrowdSourcing</h3>
-
 
                     ]]>
                 </content:encoded>
@@ -594,7 +596,7 @@ Although Instant Inkjet Circuits is very good at prototyping single layered circ
                 <link>http://localhost:4000/tips_for_git</link>
                 <content:encoded>
                     <![CDATA[
-                    <p>#Tips for Git</p>
+                    <p><img src="/asset/img/uploads/gitflow.png" alt="" /></p>
 
 <p>##1. Check detail of remote “origin” master
 	git remote -v</p>

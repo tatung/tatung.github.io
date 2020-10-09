@@ -82,13 +82,15 @@
     
       <item>
         <title>Change Amazon Drive synchronization folder on Mac</title>
-        <description>&lt;p&gt;Owning a Amazon Prime gives you the perk of unlimitedly storing your photos on Amazon Drive. It also comes with a desktop client for automatically syncing your photos to your cloud folder. However, one of the most irritated thing with this client is that, you cannot set the syncing folder to your external hard drive. It is possible to set it to a different partition as long as it is in your “internal” hard drive (Happy to get notification from Mac saying that you are running out of storage - thanks to your huge amount of photos synced from Amazon Drive). Well, there is a solution for this on Mac (it seems that there is a solution for Windows by editing registry).&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/asset/img/uploads/cloud-backup.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Owning a Amazon Prime gives you the perk of unlimitedly storing your photos on Amazon Drive. It also comes with a desktop client for automatically syncing your photos to your cloud folder. However, one of the most irritated thing with this client is that, you cannot set the syncing folder to your external hard drive. It is possible to set it to a different partition as long as it is in your “internal” hard drive (Happy to get notification from Mac saying that you are running out of storage - thanks to your huge amount of photos synced from Amazon Drive). Well, there is a solution for this on Mac (it seems that there is a solution for Windows by editing registry).&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Install the Amazon Drive client as usual. When it asks you to sync from your cloud to your local, just choose skip (or later).&lt;/li&gt;
   &lt;li&gt;Turn off Amazon Drive client (the cloud icon on the notification bar)&lt;/li&gt;
   &lt;li&gt;Plug your external hard drive in&lt;/li&gt;
-  &lt;li&gt;In your Finder, go to:&lt;br /&gt;
+  &lt;li&gt;In your Finder, go to:\
 &lt;code class=&quot;highlighter-rouge&quot;&gt;/Users/USER_NAME/Library/Application Support/Amazon Cloud Drive&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Open file &lt;code class=&quot;highlighter-rouge&quot;&gt;amzn1.account.#########-settings.json&lt;/code&gt; with your text editor, you will see somethings like this:&lt;/li&gt;
 &lt;/ul&gt;
@@ -100,8 +102,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Just change the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;SyncPath&lt;/code&gt; to your prefered external hard drive. It should be somethings like `
-“SyncPath”: “/Volumes/ExternalDrive/Amazon Drive”`&lt;/li&gt;
+  &lt;li&gt;Just change the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;SyncPath&lt;/code&gt; to your prefered external hard drive. It should be somethings like &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;SyncPath&quot;: &quot;/Volumes/ExternalDrive/Amazon Drive&quot;&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Start Amazon Drive client, it will ask you the location of sync folder, just click Next and the client will sync your cloud folder to your external hard drive&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -113,6 +114,8 @@
       <item>
         <title>Chọn mua rượu Nhật</title>
         <description>&lt;p&gt;Vừa rồi có anh bạn hỏi xem mua rượu Nhật về biếu thì mua rượu gì. Mình không uống rượu mấy nhưng do từng mua rồi nên có tìm hiểu qua một tí.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/asset/img/uploads/sake.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Mua rượu ở Nhật thì rất đa dạng. Có rượu tây, rượu tàu, rượu gạo, rượu vang, và nhiều loại nữa. Trong số này, rượu gạo có vẻ là thuần Nhật hơn cả.&lt;/p&gt;
 
@@ -145,19 +148,19 @@ Rượu gạo thì làm từ gạo. Nhưng mà có loại được làm hoàn to
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Loại&lt;/th&gt;
+      &lt;th&gt;Loại&lt;/th&gt;
       &lt;th&gt;Thành phần&lt;/th&gt;
       &lt;th&gt;Vị&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;純米&lt;/td&gt;
+      &lt;td&gt;純米&lt;/td&gt;
       &lt;td&gt;Gạo + Men gạo&lt;/td&gt;
       &lt;td&gt;Đậm + Ngọt&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;非純米&lt;/td&gt;
+      &lt;td&gt;非純米&lt;/td&gt;
       &lt;td&gt;Gạo + Men gạo + Men bảo quản&lt;/td&gt;
       &lt;td&gt;Nhạt + Cay&lt;/td&gt;
     &lt;/tr&gt;
@@ -181,50 +184,38 @@ Từ 3 tiêu chí trên, người ta phân rượu gạo Nhật ra làm mấy lo
 
 &lt;ul&gt;
   &lt;li&gt;Gạo mài dưới 30%
-    &lt;ul&gt;
-      &lt;li&gt;Rượu thường (普通酒 - Futsu Shu). Nghe đồn không phân loại rượu gạo thuần chủng hay rượu pha, chắc tại không đáng phân loại.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+		- Rượu thường (普通酒 - Futsu Shu). Nghe đồn không phân loại rượu gạo thuần chủng hay rượu pha, chắc tại không đáng phân loại.&lt;/li&gt;
   &lt;li&gt;Gạo mài 30 - 40%
-    &lt;ul&gt;
-      &lt;li&gt;Thuần gạo: rượu thuần gạo (純米酒 - Junmai Shu)&lt;/li&gt;
-      &lt;li&gt;Không thuần gạo: rượu pha loại 1 (本醸造酒 - Hon Jouzou Shu)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+		- Thuần gạo: rượu thuần gạo (純米酒 - Junmai Shu)
+		- Không thuần gạo: rượu pha loại 1 (本醸造酒 - Hon Jouzou Shu)&lt;/li&gt;
   &lt;li&gt;Gạo mài 40 - 50% chế biến ở nhiệt độ thường
-    &lt;ul&gt;
-      &lt;li&gt;Thuần gạo: rượu gạo đặc biệt (特別純米酒 - Tokubetsu Junmai Shu)&lt;/li&gt;
-      &lt;li&gt;Không thuần gạo: rượu pha loại 1 đặc biệt (特別本醸造酒 - Tokubetsu Hon Jouzou Shu)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+		- Thuần gạo: rượu gạo đặc biệt (特別純米酒 - Tokubetsu Junmai Shu)
+		- Không thuần gạo: rượu pha loại 1 đặc biệt (特別本醸造酒 - Tokubetsu Hon Jouzou Shu)&lt;/li&gt;
   &lt;li&gt;Gạo mài 40 - 50% + lên men ở nhiệt độ thấp
-    &lt;ul&gt;
-      &lt;li&gt;Thuần gạo: rượu gạo ngâm cất (純米吟醸酒 - Junmai Ginjou Shu)&lt;/li&gt;
-      &lt;li&gt;Không thuần gạo: rượu pha ngâm cất (吟醸酒 - Ginjou Shu)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+		- Thuần gạo: rượu gạo ngâm cất (純米吟醸酒 - Junmai Ginjou Shu)
+		- Không thuần gạo: rượu pha ngâm cất (吟醸酒 - Ginjou Shu)&lt;/li&gt;
   &lt;li&gt;Gạo mài trên 50% + lên men ở nhiệt độ thấp
- 	- Thuần gạo: rượu gạo tinh chế ngâm cất (純米大吟醸酒 - Junmai Daiginjou Shu)
-    &lt;ul&gt;
-      &lt;li&gt;Không thuần gạo: rượu pha tinh chế ngâm cất (大吟醸酒 - Daiginjou Shu)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+		- Thuần gạo: rượu gạo tinh chế ngâm cất (純米大吟醸酒 - Junmai Daiginjou Shu)
+		- Không thuần gạo: rượu pha tinh chế ngâm cất (大吟醸酒 - Daiginjou Shu)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Trong đống này, rượu pha tinh chế ngân cất thì nghe đồ là cao cấp nhất, mùi rượu ngào ngạt, vị rượu thì ngấm sâu.&lt;/p&gt;
 
 &lt;p&gt;###Bonus
-Ngoài uống rượu gạo bằng chén, bát, người ta còn uống rượu gạo bằng chén gỗ cây Hinoki (檜桝). Uống bằng loại chén gỗ này thì mùi rượu hoà với mùi gỗ rất đặc trưng.&lt;/p&gt;
+Ngoài uống rượu gạo bằng chén, bát, người ta còn uống rượu gạo bằng chén gỗ cây Hinoki (檜枡). Uống bằng loại chén gỗ này thì mùi rượu hoà với mùi gỗ rất đặc trưng.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/asset/img/uploads/98002372_custom.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Nov 2016 09:38:27 +0900</pubDate>
-        <link>http://localhost:4000/Ru-o-u-Nha-t</link>
-        <guid isPermaLink="true">http://localhost:4000/Ru-o-u-Nha-t</guid>
+        <link>http://localhost:4000/R%C6%B0%E1%BB%A3u-Nh%E1%BA%ADt</link>
+        <guid isPermaLink="true">http://localhost:4000/R%C6%B0%E1%BB%A3u-Nh%E1%BA%ADt</guid>
       </item>
     
       <item>
         <title>How to root Qua Tab HWT31 - Huawei Mediapad T2 10 Pro</title>
-        <description>&lt;p&gt;This instruction is based on the instruction for Huawei Honor5 in &lt;a href=&quot;http://forum.xda-developers.com/honor-5x/development/root-kiw-l24-usa-kiwi-t3305190&quot;&gt;xda&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/asset/img/uploads/hwt31.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This instruction is based on the instruction for Huawei Honor5 in &lt;a href=&quot;http://forum.xda-developers.com/honor-5x/development/root-kiw-l24-usa-kiwi-t3305190&quot;&gt;xda&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I was using Mac to root my HWT31, but procedure for Windows seems to be the same.&lt;/p&gt;
 
@@ -308,7 +299,6 @@ Copy SuperSU downloaded from previous step into HWT31 memory card.&lt;/p&gt;
 After reboot into recovery mode (TWRP), you will see Install button, tap on it and navigate to SuperSU.zip copied to HWT31 from &lt;strong&gt;Step 2&lt;/strong&gt;. Follow the instruction from TWRP to get root.&lt;/p&gt;
 
 &lt;p&gt;After installing SuperSU, you can reboot to Android and enjoy your rooted HWT31&lt;/p&gt;
-
 </description>
         <pubDate>Mon, 30 May 2016 09:38:27 +0900</pubDate>
         <link>http://localhost:4000/how_to_root_qua_tab_hwt31_-_huawei_mediapad_t2_10_pro</link>
@@ -317,9 +307,12 @@ After reboot into recovery mode (TWRP), you will see Install button, tap on it a
     
       <item>
         <title>Setup multiple Wordpress site on Bitnami - Amazon EC2</title>
-        <description>&lt;p&gt;Let’s assume that you want to have &lt;a href=&quot;http://domain1.com&quot;&gt;http://domain1.com&lt;/a&gt; and &lt;a href=&quot;http://domain2.com&quot;&gt;http://domain2.com&lt;/a&gt; point to 2 different Wordpress instances in a sigle Bitnami - Amazon EC2 instance. This Bitnami - Amazon EC2 instance has also been installed with Wordpress already.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/asset/img/uploads/wordpress.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s assume that you want to have &lt;a href=&quot;http://domain1.com&quot;&gt;http://domain1.com&lt;/a&gt; and &lt;a href=&quot;http://domain2.com&quot;&gt;http://domain2.com&lt;/a&gt; point to 2 different Wordpress instances in a sigle Bitnami - Amazon EC2 instance. This Bitnami - Amazon EC2 instance has also been installed with Wordpress already.&lt;/p&gt;
 
 &lt;h2 id=&quot;configure-apache-to-accept-2-domains&quot;&gt;Configure Apache to accept 2 domains&lt;/h2&gt;
+
 &lt;p&gt;Make sure to uncomment (delete the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; character in the beginning) this line in &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apache2/conf&lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Include conf/extra/httpd-vhosts.conf
@@ -388,6 +381,7 @@ sudo ./ctlscript.sh restart apache
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;install-additional-wordpress-instance&quot;&gt;Install additional wordpress instance&lt;/h2&gt;
+
 &lt;h3 id=&quot;create-database-for-new-wordpress-instance&quot;&gt;Create database for new Wordpress instance&lt;/h3&gt;
 
 &lt;p&gt;Get into MySQL prompt:&lt;/p&gt;
@@ -408,6 +402,7 @@ exit
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;install-new-wordpress-instance&quot;&gt;Install new Wordpress instance&lt;/h3&gt;
+
 &lt;p&gt;Download and decompress wordpress&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://wordpress.org/latest.tar.gz
@@ -430,14 +425,14 @@ sudo rsync -avP ~/wordpress/ /opt/bitnami/apps/wordpress2
 
 &lt;p&gt;Go to newly copied &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apps/wordpress2&lt;/code&gt; and edit &lt;code class=&quot;highlighter-rouge&quot;&gt;wp-config.php&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//  **MySQL settings - You can get this info from your web host**  //
+/ **The name of the database for WordPress */
 define('DB_NAME', 'Wordpress2');
 
 /** MySQL database username */
 define('DB_USER', 'seconduser');
 
-/** MySQL database password */
+/\*\* MySQL database password* /
 define('DB_PASSWORD', 'password_for_seconduser');	
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -452,7 +447,10 @@ define('DB_PASSWORD', 'password_for_seconduser');
     
       <item>
         <title>Next Innovations Come From The Crowd</title>
-        <description>&lt;h2 id=&quot;what-is-innovation&quot;&gt;What is innovation?&lt;/h2&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/asset/img/uploads/Crowd-Hands-stadium.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-innovation&quot;&gt;What is innovation?&lt;/h2&gt;
+
 &lt;p&gt;According to Oxford dictionary &lt;a href=&quot;http://www.oxforddictionaries.com/definition/english/innovate&quot;&gt;1&lt;/a&gt;, innovation is defined as the action or process of “Make changes in something established, especially by introducing new methods, ideas, or products”. That means the originality (&lt;strong&gt;novelty&lt;/strong&gt;) is one of the most critical points of anything called innovation. In addition to novelty, an innovation has to be applicable and replicable economically in real life. Otherwise, it is useless or simply a lie.&lt;/p&gt;
 
 &lt;p&gt;In the very past, before and during the Renaissance, innovations were usually established by some special individuals which were minor part of the population. Besides those individuals’ tremendous efforts which act as leading role in generating innovation, the access to information and knowledge had also substantially contributed to the process of innovating.&lt;/p&gt;
@@ -460,6 +458,7 @@ define('DB_PASSWORD', 'password_for_seconduser');
 &lt;p&gt;In human history, it was a long period of time that knowledge was passed and spread by rumor, word-of-mouths or more civilized, by books. Nowadays, computer and the Internet has changed everything. It help to quickly solve complex calculations, to instantly (to some extend) transmit multimedia like text, images, voices or videos, etc. But more importantly, it is acting like the biggest library of human’s knowledge that every can access. It opens and flattens the information availability gap. At this point, it is a very good reason to believe that anyone can become a creator and the next innovation can come from anyone of us.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-the-crowd-contributes-to-innovations&quot;&gt;How the crowd contributes to innovations?&lt;/h2&gt;
+
 &lt;p&gt;We are living in the time that there were many “What an era!” had been spoken out to express the amusement and excitement to new innovations. Like no other periods, thank to the flourishment of venture capitalists, the universalization of the Internet, the entrance bar to an industry has been lower and lower that anyone with an idea can quickly entry (The more important question is how to survive after entrying, but it is out of the scope of this article, and in fact, the author also does not have enough information and ability to answer).&lt;/p&gt;
 
 &lt;p&gt;###CrowdFunding
@@ -478,9 +477,11 @@ The crowd making here is not the concept of how to form a crowd, but it means &l
 &lt;p&gt;The answer might be because only until recently, with the help of crowdfunding sites, the fund raising has become simpler that everyone can get sufficient financial support. But as mentioned above, crowdfunding sites focus on shortening the journey to mass production. That means, it is supposed that the product has already been well prototyped and can actually work. It turns out that rapid prototyping is one of the keys to have good and actually working products. Rapid prototyping is a concept in which creator utilize a bunch of available tools and technologies to fastest make a working version of the product. The faster you can make the prototype, the higher number of iteration that you can run to refine the product, which in turn, promises increment of final (released) quality. These available tools and technologies I mentioned here is known in software development as open source platform, library, low-cost services like Amazon Cloud Service, Docker, OpenStack, etc., and in hardware as open source hardware, low-cost rapid fabrication tools like Arduino, 3D printer, laser-cutter, silver nano particle ink, etc. Not only the bar to entry the industry has been lowered thank to crowdfunding, but the bar to realize an idea has also lowered thank to those rapid prototyping tools. This leads us to a scene in which many people are empowered with powerful tools to make things that can transform our society. I strongly believe this will make a revolution in how we compete, innovate and improve human life.&lt;/p&gt;
 
 &lt;h2 id=&quot;make-those-crowd-stuff-happen&quot;&gt;Make those Crowd-stuff happen?&lt;/h2&gt;
+
 &lt;p&gt;It sounds like those Crowd-stuff are quite fancy. So how to make it happen? Regarding of Crowdfunding, I will not have further comment here as those guys in Kickstarter and Indiegogo are really nailing it. I want to give a little more detail about CrowdSourcing and CrowdMaking which are things that I have been doing recently.&lt;/p&gt;
 
 &lt;h3 id=&quot;research-in-rapid-prototyping---to-crowdmaking&quot;&gt;Research in Rapid Prototyping - To CrowdMaking&lt;/h3&gt;
+
 &lt;p&gt;The keypoint to realize CrowdMaking is that everyone can quickly try and realize an idea to evaluate if it is really work or not. Recent developments in technology and new material have brought us a bunch of powerful tools to rapidly fabricate really working prototypes. Among these, our research is focusing on rapid prototyping of electronic circuits. Traditional method to rapidly prototype electronic circuits is to use breadboard to make the wiring. This method is quite convenient to simple electronic circuits but it is escalated quickly when the circuits get more complicated. Another method to make electronic circuit is to use Printed Circuit Board (PCB). However, PCB board is mostly used in mass production as it takes quite long time to make a PCB board (depend on the size of the board also the technology used to fabricate PCB). In our research, we used comodity inkjet printer to print conductive ink into special photo paper. We call this technology Instant Inkjet Circuits. The conductive ink we used here is special Silver Nano-particle Ink that can establish conductivity almost immediately after printing. Thus, we can quickly print conductive pattern at low-cost. However, Instant Inkjet Circuits has some problems that need to be solved in order to broaden its application.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Resistance&lt;/strong&gt; - Improve printed conductivity by overprinting
@@ -490,7 +491,9 @@ Although silver is known to have better bulk conductivity than copper, however, 
 Although Instant Inkjet Circuits is very good at prototyping single layered circuits, many applications and electronic circuit schematics require the support of multilayered circuit.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Make fabrication easy access to every one
+  &lt;li&gt;
+    &lt;p&gt;Make fabrication easy access to every one&lt;/p&gt;
+
     &lt;ul&gt;
       &lt;li&gt;Universal availability&lt;/li&gt;
       &lt;li&gt;Low-cost&lt;/li&gt;
@@ -500,7 +503,6 @@ Although Instant Inkjet Circuits is very good at prototyping single layered circ
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;research-in-iot-and-sensors---to-crowdsourcing&quot;&gt;Research in IoT and sensors - To CrowdSourcing&lt;/h3&gt;
-
 </description>
         <pubDate>Thu, 30 Jul 2015 09:38:27 +0900</pubDate>
         <link>http://localhost:4000/next_innovations_come_from_the_crowd</link>
@@ -509,7 +511,7 @@ Although Instant Inkjet Circuits is very good at prototyping single layered circ
     
       <item>
         <title>Common used git command</title>
-        <description>&lt;p&gt;#Tips for Git&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/asset/img/uploads/gitflow.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;##1. Check detail of remote “origin” master
 	git remote -v&lt;/p&gt;
