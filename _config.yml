@@ -12,7 +12,8 @@ header_pages:
  - about.md
  - contact.html
 
-google_analytics:
+google_analytics: UA-27976595-3
+# google_tag_manager: GTM-NZHM422
 
 # Optional features
 animated:             true

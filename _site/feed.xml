@@ -81,32 +81,6 @@
       </item>
     
       <item>
-        <title>Hello, Mixyll</title>
-        <description>&lt;p&gt;Hello.&lt;/p&gt;
-
-&lt;p&gt;Mixyll (Minimal version of &lt;a href=&quot;https://github.com/johno/pixyll&quot;&gt;Pixyll&lt;/a&gt;) is a simple, beautiful theme for Jekyll based on the popular Jekyll theme &lt;a href=&quot;https://github.com/johno/pixyll&quot;&gt;Pixyll&lt;/a&gt; by &lt;a href=&quot;http://johnotander.com&quot;&gt;John Otander&lt;/a&gt; that emphasizes content rather than aesthetic fluff. It’s mobile &lt;em&gt;first&lt;/em&gt;, fluidly responsive, and delightfully lightweight.&lt;/p&gt;
-
-&lt;p&gt;It’s pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  &lt;/p&gt;
-  &lt;footer&gt;&lt;cite title=&quot;Antoine de Saint-Exupéry&quot;&gt;Antoine de Saint-Exupéry&lt;/cite&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;where-is-it&quot;&gt;Where is it?&lt;/h2&gt;
-
-&lt;p&gt;Checkout the &lt;a href=&quot;https://github.com/saikiransripada/mixyll&quot;&gt;Github repository&lt;/a&gt; to download it, request a feature, or report a bug.&lt;/p&gt;
-
-&lt;p&gt;It’s free, and open source (&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt;).&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Jun 2014 00:31:19 +0900</pubDate>
-        <link>http://localhost:4000/welcome-to-mixyll</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome-to-mixyll</guid>
-      </item>
-    
-      <item>
         <title>Mixyll in Action</title>
         <description>&lt;p&gt;There is a significant amount of subtle, yet precisely calibrated, styling to ensure
 that your content is emphasized while still looking aesthetically pleasing.&lt;/p&gt;

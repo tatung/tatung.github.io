@@ -113,44 +113,6 @@
     
         
             <item>
-                <title>Hello, Mixyll</title>
-                <link>http://localhost:4000/welcome-to-mixyll</link>
-                <content:encoded>
-                    <![CDATA[
-                    <p>Hello.</p>
-
-<p>Mixyll (Minimal version of <a href="https://github.com/johno/pixyll">Pixyll</a>) is a simple, beautiful theme for Jekyll based on the popular Jekyll theme <a href="https://github.com/johno/pixyll">Pixyll</a> by <a href="http://johnotander.com">John Otander</a> that emphasizes content rather than aesthetic fluff. It’s mobile <em>first</em>, fluidly responsive, and delightfully lightweight.</p>
-
-<p>It’s pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.</p>
-
-<blockquote>
-  <p>
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  </p>
-  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
-</blockquote>
-
-<h2 id="where-is-it">Where is it?</h2>
-
-<p>Checkout the <a href="https://github.com/saikiransripada/mixyll">Github repository</a> to download it, request a feature, or report a bug.</p>
-
-<p>It’s free, and open source (<a href="http://opensource.org/licenses/MIT">MIT</a>).</p>
-
-                    ]]>
-                </content:encoded>
-                <guid isPermaLink="false">/welcome-to-mixyll</guid>
-                <description>
-                    
-                    Mixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.
-                    
-                </description>
-                <pubDate>Thu, 12 Jun 2014 00:31:19 +0900</pubDate>
-                <author>Tung D. Ta</author>
-            </item>
-        
-    
-        
-            <item>
                 <title>Mixyll in Action</title>
                 <link>http://localhost:4000/see-mixyll-in-action</link>
                 <content:encoded>
