@@ -81,6 +81,478 @@
       </item>
     
       <item>
+        <title>Change Amazon Drive synchronization folder on Mac</title>
+        <description>&lt;p&gt;Owning a Amazon Prime gives you the perk of unlimitedly storing your photos on Amazon Drive. It also comes with a desktop client for automatically syncing your photos to your cloud folder. However, one of the most irritated thing with this client is that, you cannot set the syncing folder to your external hard drive. It is possible to set it to a different partition as long as it is in your “internal” hard drive (Happy to get notification from Mac saying that you are running out of storage - thanks to your huge amount of photos synced from Amazon Drive). Well, there is a solution for this on Mac (it seems that there is a solution for Windows by editing registry).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install the Amazon Drive client as usual. When it asks you to sync from your cloud to your local, just choose skip (or later).&lt;/li&gt;
+  &lt;li&gt;Turn off Amazon Drive client (the cloud icon on the notification bar)&lt;/li&gt;
+  &lt;li&gt;Plug your external hard drive in&lt;/li&gt;
+  &lt;li&gt;In your Finder, go to:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;/Users/USER_NAME/Library/Application Support/Amazon Cloud Drive&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Open file &lt;code class=&quot;highlighter-rouge&quot;&gt;amzn1.account.#########-settings.json&lt;/code&gt; with your text editor, you will see somethings like this:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;DeviceSourceId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;################&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;SyncPath&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/Path/To/Your/Sync/Directory&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Just change the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;SyncPath&lt;/code&gt; to your prefered external hard drive. It should be somethings like `
+“SyncPath”: “/Volumes/ExternalDrive/Amazon Drive”`&lt;/li&gt;
+  &lt;li&gt;Start Amazon Drive client, it will ask you the location of sync folder, just click Next and the client will sync your cloud folder to your external hard drive&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 04 Jan 2017 09:38:27 +0900</pubDate>
+        <link>http://localhost:4000/Change-location-of-Amazon-Drive-sync-folder</link>
+        <guid isPermaLink="true">http://localhost:4000/Change-location-of-Amazon-Drive-sync-folder</guid>
+      </item>
+    
+      <item>
+        <title>Chọn mua rượu Nhật</title>
+        <description>&lt;p&gt;Vừa rồi có anh bạn hỏi xem mua rượu Nhật về biếu thì mua rượu gì. Mình không uống rượu mấy nhưng do từng mua rồi nên có tìm hiểu qua một tí.&lt;/p&gt;
+
+&lt;p&gt;Mua rượu ở Nhật thì rất đa dạng. Có rượu tây, rượu tàu, rượu gạo, rượu vang, và nhiều loại nữa. Trong số này, rượu gạo có vẻ là thuần Nhật hơn cả.&lt;/p&gt;
+
+&lt;p&gt;##Ngắn gọn
+Thứ tự ưu tiên từ cao xuống thấp (giá cả cũng thế!).&lt;/p&gt;
+
+&lt;p&gt;Hệ 純米 (Junmai, thuần gạo), rượu có vị đậm và ngọt&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;純米大吟醸酒 (Junmai Dai Ginjou Shu)&lt;/li&gt;
+  &lt;li&gt;純米吟醸酒 (Junmai Ginjou Shu)&lt;/li&gt;
+  &lt;li&gt;特別純米酒 (Tokubetsu Junmai Shu)&lt;/li&gt;
+  &lt;li&gt;純米酒 (Junmai Shu)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hệ 非純米 (Hi Junmai, không thuần gạo), rượu có vị nhạt và cay&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;大吟醸酒 (Dai Ginjou Shu)&lt;/li&gt;
+  &lt;li&gt;吟醸酒 (Ginjou Shu)&lt;/li&gt;
+  &lt;li&gt;特別本醸造酒 (Tokubetsu Hon Jouzou Shu)&lt;/li&gt;
+  &lt;li&gt;本醸造酒 (Hon Jouzou Shu)&lt;/li&gt;
+  &lt;li&gt;普通酒 (Futsu Shu)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Cụ thể
+###純米 và 非純米  - Thuần gạo với không thuần gạo
+Rượu gạo thì làm từ gạo. Nhưng mà có loại được làm hoàn toàn từ gạo không có một tí phụ gia nào, tất nhiên có thêm men rượu gạo. Loại này gọi là 純米 (Junmai). Loại còn lại thì có thêm phụ gia là men bảo quản, loại này gọi là 非純米 (Hi Junmai).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Loại&lt;/th&gt;
+      &lt;th&gt;Thành phần&lt;/th&gt;
+      &lt;th&gt;Vị&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;純米&lt;/td&gt;
+      &lt;td&gt;Gạo + Men gạo&lt;/td&gt;
+      &lt;td&gt;Đậm + Ngọt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;非純米&lt;/td&gt;
+      &lt;td&gt;Gạo + Men gạo + Men bảo quản&lt;/td&gt;
+      &lt;td&gt;Nhạt + Cay&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nói thêm về thằng men bảo quản trộn trong 非純米, bản chất nó cũng là rượu nốt. Nó là một loại rượu Shochu (焼酎 - rượu chiết suất từ bột mì, khoai tây) có vị hơi đậm. Nguyên nhân người ta trộn thêm cái này vào rượu gạo là để chống rượu bị nhiễm khuẩn. Những loại rượu gạo có độ rượu thấp để một thời gian sẽ bị nhiễm khuẩn. Để ngăn chặn quá trình nhiễm khuẩn này, từ thời Edo, người ta trộn thêm men Shochu vào trong rượu gạo.&lt;/p&gt;
+
+&lt;p&gt;Nói như vậy không hoàn toàn nghĩa là 純米 thì xịn hơn 非純米. Tiêu chí chọn phụ thuộc vào sở thích về vị rượu như ghi trong bảng phía trên.&lt;/p&gt;
+
+&lt;p&gt;###Mài ít hay mài nhiều hay là không mài
+Khi nấu rượu, người ta phải mài bớt phần vỏ gạo (vỏ gạo chứ không phải trấu nhé), chỉ lấy phần lõi để làm rượu thôi. Gạo mài vỏ càng nhiều thì làm ra rượu càng đắt.&lt;/p&gt;
+
+&lt;p&gt;Rượu làm từ gạo mài 20 - 30%, tức rượu làm từ 70 - 80% thể tích lõi gạo thì gọi là rượu thường (普通酒). Loại này thường bán ở siêu thị dưới dạng hộp giấy giống nước hoa quả. Loại nào làm từ gạo mài 30% trở lên được xếp cao cấp hơn. Còn loại không mài tí nào thì không biết nó là cái giống gì (?!).&lt;/p&gt;
+
+&lt;p&gt;###吟醸 - Ginjou - Nhiệt độ lên men thấp hay cao
+Khi làm rượu, nhiệt độ lên men cũng rất quan trọng. Lên men nhiệt độ thấp thì mất thời gian hơn nhưng nghe đồn là ngon hơn. Rượu làm được lên men ở nhiệt độ thấp thì gọi là 吟醸 (Ginjou).&lt;/p&gt;
+
+&lt;p&gt;###Phân loại
+Từ 3 tiêu chí trên, người ta phân rượu gạo Nhật ra làm mấy loại, giá từ thấp đến cao:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gạo mài dưới 30%
+    &lt;ul&gt;
+      &lt;li&gt;Rượu thường (普通酒 - Futsu Shu). Nghe đồn không phân loại rượu gạo thuần chủng hay rượu pha, chắc tại không đáng phân loại.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Gạo mài 30 - 40%
+    &lt;ul&gt;
+      &lt;li&gt;Thuần gạo: rượu thuần gạo (純米酒 - Junmai Shu)&lt;/li&gt;
+      &lt;li&gt;Không thuần gạo: rượu pha loại 1 (本醸造酒 - Hon Jouzou Shu)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Gạo mài 40 - 50% chế biến ở nhiệt độ thường
+    &lt;ul&gt;
+      &lt;li&gt;Thuần gạo: rượu gạo đặc biệt (特別純米酒 - Tokubetsu Junmai Shu)&lt;/li&gt;
+      &lt;li&gt;Không thuần gạo: rượu pha loại 1 đặc biệt (特別本醸造酒 - Tokubetsu Hon Jouzou Shu)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Gạo mài 40 - 50% + lên men ở nhiệt độ thấp
+    &lt;ul&gt;
+      &lt;li&gt;Thuần gạo: rượu gạo ngâm cất (純米吟醸酒 - Junmai Ginjou Shu)&lt;/li&gt;
+      &lt;li&gt;Không thuần gạo: rượu pha ngâm cất (吟醸酒 - Ginjou Shu)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Gạo mài trên 50% + lên men ở nhiệt độ thấp
+ 	- Thuần gạo: rượu gạo tinh chế ngâm cất (純米大吟醸酒 - Junmai Daiginjou Shu)
+    &lt;ul&gt;
+      &lt;li&gt;Không thuần gạo: rượu pha tinh chế ngâm cất (大吟醸酒 - Daiginjou Shu)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Trong đống này, rượu pha tinh chế ngân cất thì nghe đồ là cao cấp nhất, mùi rượu ngào ngạt, vị rượu thì ngấm sâu.&lt;/p&gt;
+
+&lt;p&gt;###Bonus
+Ngoài uống rượu gạo bằng chén, bát, người ta còn uống rượu gạo bằng chén gỗ cây Hinoki (檜桝). Uống bằng loại chén gỗ này thì mùi rượu hoà với mùi gỗ rất đặc trưng.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 26 Nov 2016 09:38:27 +0900</pubDate>
+        <link>http://localhost:4000/Ru-o-u-Nha-t</link>
+        <guid isPermaLink="true">http://localhost:4000/Ru-o-u-Nha-t</guid>
+      </item>
+    
+      <item>
+        <title>How to root Qua Tab HWT31 - Huawei Mediapad T2 10 Pro</title>
+        <description>&lt;p&gt;This instruction is based on the instruction for Huawei Honor5 in &lt;a href=&quot;http://forum.xda-developers.com/honor-5x/development/root-kiw-l24-usa-kiwi-t3305190&quot;&gt;xda&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was using Mac to root my HWT31, but procedure for Windows seems to be the same.&lt;/p&gt;
+
+&lt;p&gt;I assume you have &lt;code class=&quot;highlighter-rouge&quot;&gt;adb&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;fastboot&lt;/code&gt; tools installed (normally, it comes along with Android Studio installation).&lt;/p&gt;
+
+&lt;p&gt;##Install TWRP&lt;/p&gt;
+
+&lt;p&gt;###Step 1: Huawei ID
+Make Huawei ID if you don’t have.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://goo.gl/OlsI8a&quot;&gt;http://goo.gl/OlsI8a&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###Step 2: Get Unlock Passcode
+Login and fill in the form to get unlock passcode&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.emui.com/en/plugin.php?id=unlock&amp;amp;mod=detail&quot;&gt;https://www.emui.com/en/plugin.php?id=unlock&amp;amp;mod=detail&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;How to Production ID:
+Open Calculator apps in HWT31. Your HWT31 should be in horizontal orientation to get full layout of Calculator. Input&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;()()1357946()()=&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This will give you the Production ID number.&lt;/p&gt;
+
+&lt;p&gt;###Step 3: Enable Developer Option in HWT31
+Go to your &lt;code class=&quot;highlighter-rouge&quot;&gt;Settings/About Tablet&lt;/code&gt;, and tap on &lt;code class=&quot;highlighter-rouge&quot;&gt;Build number&lt;/code&gt; until it says that you are developer now.&lt;/p&gt;
+
+&lt;p&gt;###Step 4: Enable OEM unlock and USB Debugging mode
+Go to your &lt;code class=&quot;highlighter-rouge&quot;&gt;Settings/Developer Options&lt;/code&gt; and enable&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Enable OEM unlock&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;USB Debugging&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###Step 5: Reboot to bootloader mode
+Plug HWT31 into the computer and authorize it so that &lt;code class=&quot;highlighter-rouge&quot;&gt;adb&lt;/code&gt; will work. Type command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./adb reboot bootloader
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After HWT31 getting into bootloader mode, run unlock command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./fastboot oem unlock ****************
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;in which, &lt;code class=&quot;highlighter-rouge&quot;&gt;****************&lt;/code&gt; is the unlock passcode you got from &lt;strong&gt;step 2&lt;/strong&gt;. This step will bring your HWT31 back to the initial state when you got it from the manufacturer.&lt;/p&gt;
+
+&lt;p&gt;###Step 6: Bootup
+Bootup the tablet and set it up.&lt;/p&gt;
+
+&lt;p&gt;###Step 7: Get TWRP
+Download TWRP from&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.androidfilehost.com/?fid=24459283995302412&quot;&gt;https://www.androidfilehost.com/?fid=24459283995302412&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is TWRP for another Huawei device (KIWI) but it works on HWT31 also.&lt;/p&gt;
+
+&lt;p&gt;###Step 8: Flash TWRP
+	./adb reboot bootloader
+	./fastboot flash recovery twrp.img&lt;/p&gt;
+
+&lt;p&gt;in which, twrp.img is the file you downloaded in &lt;em&gt;Step 7&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After flashing finishes, type:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./fastboot reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;##Get Root
+###Step 1: Get SuperSU
+&lt;a href=&quot;http://download.chainfire.eu/897/SuperSU/BETA-SuperSU-v2.67-20160121175247.zip&quot;&gt;http://download.chainfire.eu/897/SuperSU/BETA-SuperSU-v2.67-20160121175247.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###Step 2: Copy SuperSU to HWT31
+Copy SuperSU downloaded from previous step into HWT31 memory card.&lt;/p&gt;
+
+&lt;p&gt;###Step 3: Boot into Recovery mode
+	./adb reboot recovery&lt;/p&gt;
+
+&lt;p&gt;###Step 4: Install SuperSU
+After reboot into recovery mode (TWRP), you will see Install button, tap on it and navigate to SuperSU.zip copied to HWT31 from &lt;strong&gt;Step 2&lt;/strong&gt;. Follow the instruction from TWRP to get root.&lt;/p&gt;
+
+&lt;p&gt;After installing SuperSU, you can reboot to Android and enjoy your rooted HWT31&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 30 May 2016 09:38:27 +0900</pubDate>
+        <link>http://localhost:4000/how_to_root_qua_tab_hwt31_-_huawei_mediapad_t2_10_pro</link>
+        <guid isPermaLink="true">http://localhost:4000/how_to_root_qua_tab_hwt31_-_huawei_mediapad_t2_10_pro</guid>
+      </item>
+    
+      <item>
+        <title>Setup multiple Wordpress site on Bitnami - Amazon EC2</title>
+        <description>&lt;p&gt;Let’s assume that you want to have &lt;a href=&quot;http://domain1.com&quot;&gt;http://domain1.com&lt;/a&gt; and &lt;a href=&quot;http://domain2.com&quot;&gt;http://domain2.com&lt;/a&gt; point to 2 different Wordpress instances in a sigle Bitnami - Amazon EC2 instance. This Bitnami - Amazon EC2 instance has also been installed with Wordpress already.&lt;/p&gt;
+
+&lt;h2 id=&quot;configure-apache-to-accept-2-domains&quot;&gt;Configure Apache to accept 2 domains&lt;/h2&gt;
+&lt;p&gt;Make sure to uncomment (delete the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; character in the beginning) this line in &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apache2/conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Include conf/extra/httpd-vhosts.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Go to directory &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apache2/conf/extra&lt;/code&gt; and edit file &lt;code class=&quot;highlighter-rouge&quot;&gt;httpd-vhosts.conf&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /opt/bitnami/apache2/conf/extra
+vi httpd-vhosts.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;as follow:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+	ServerAdmin webmaster@domain1.com
+	DocumentRoot &quot;/opt/bitnami/apps/wordpress/htdocs&quot;
+    ServerName domain1
+	&amp;lt;Directory /&amp;gt;
+    	Require all granted
+    &amp;lt;/Directory&amp;gt;
+	ErrorLog &quot;logs/domain1.com-error_log&quot;
+    CustomLog &quot;logs/domain1.com-access_log&quot; common
+&amp;lt;/VirtualHost&amp;gt;
+
+&amp;lt;VirtualHost *:80&amp;gt;
+    ServerAdmin webmaster@domain2.com
+    DocumentRoot &quot;/opt/bitnami/apps/wordpress2&quot;
+    ServerName domain2.com
+    &amp;lt;Directory /&amp;gt;
+        Require all granted
+    &amp;lt;/Directory&amp;gt;
+    ErrorLog &quot;logs/domain2.com-error_log&quot;
+    CustomLog &quot;logs/domain2.com-access_log&quot; common
+&amp;lt;/VirtualHost&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You might notice that in &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/bitnami/apps&lt;/code&gt; directory, we also have &lt;code class=&quot;highlighter-rouge&quot;&gt;wordpress&lt;/code&gt; directory. However, this is only a symlink to the real one in &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apps/wordpress&lt;/code&gt;. Therefore, we will set &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentRoot&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apps/wordpress&lt;/code&gt; as above.&lt;/p&gt;
+
+&lt;p&gt;Go to directory &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apps&lt;/code&gt; and create directory &lt;code class=&quot;highlighter-rouge&quot;&gt;wordpress2&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /opt/bitnami/apps
+mkdir wordpress2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create a temporary &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apps/wordpress2&lt;/code&gt; with this content:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Welcome to domain2!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Success!  The domain2 virtual host is working!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Restart &lt;code class=&quot;highlighter-rouge&quot;&gt;apache&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /opt/bitnami
+sudo ./ctlscript.sh restart apache
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point, when you go to &lt;a href=&quot;http://domain2.com&quot;&gt;http://domain2.com&lt;/a&gt;. You should see the simple text:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Success!  The domain2 virtual host is working!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;install-additional-wordpress-instance&quot;&gt;Install additional wordpress instance&lt;/h2&gt;
+&lt;h3 id=&quot;create-database-for-new-wordpress-instance&quot;&gt;Create database for new Wordpress instance&lt;/h3&gt;
+
+&lt;p&gt;Get into MySQL prompt:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mysql -u root -p
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Type password for mysql when asked.&lt;/p&gt;
+
+&lt;p&gt;Create database for &lt;code class=&quot;highlighter-rouge&quot;&gt;wordpress2&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;CREATE DATABASE Wordpress2;
+CREATE USER seconduser@localhost;
+SET PASSWORD FOR seconduser@localhost= PASSWORD(&quot;password_for_seconduser&quot;);
+GRANT ALL PRIVILEGES ON Wordpress2.* TO seconduser@localhost IDENTIFIED BY 'password_for_seconduser';
+FLUSH PRIVILEGES;
+exit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;install-new-wordpress-instance&quot;&gt;Install new Wordpress instance&lt;/h3&gt;
+&lt;p&gt;Download and decompress wordpress&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://wordpress.org/latest.tar.gz
+tar xzvf latest.tar.gz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;wp-config.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd wordpress
+cp wp-config-sample.php wp-config.php
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Copy to web root directory &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apps&lt;/code&gt;. At this point, remember to delete formerly created &lt;code class=&quot;highlighter-rouge&quot;&gt;wordpress2&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /opt/bitnami/apps
+rm -R wordpress2
+
+sudo rsync -avP ~/wordpress/ /opt/bitnami/apps/wordpress2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Go to newly copied &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/bitnami/apps/wordpress2&lt;/code&gt; and edit &lt;code class=&quot;highlighter-rouge&quot;&gt;wp-config.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'Wordpress2');
+
+/** MySQL database username */
+define('DB_USER', 'seconduser');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'password_for_seconduser');	
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point, you can access to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://domain2.com&lt;/code&gt;, input the information above when asked to finally install wordpress.&lt;/p&gt;
+
+&lt;p&gt;Done!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Feb 2016 09:38:27 +0900</pubDate>
+        <link>http://localhost:4000/setup_multiple_wordpress_site_on_bitnami_-_amazon_ec2</link>
+        <guid isPermaLink="true">http://localhost:4000/setup_multiple_wordpress_site_on_bitnami_-_amazon_ec2</guid>
+      </item>
+    
+      <item>
+        <title>Next Innovations Come From The Crowd</title>
+        <description>&lt;h2 id=&quot;what-is-innovation&quot;&gt;What is innovation?&lt;/h2&gt;
+&lt;p&gt;According to Oxford dictionary &lt;a href=&quot;http://www.oxforddictionaries.com/definition/english/innovate&quot;&gt;1&lt;/a&gt;, innovation is defined as the action or process of “Make changes in something established, especially by introducing new methods, ideas, or products”. That means the originality (&lt;strong&gt;novelty&lt;/strong&gt;) is one of the most critical points of anything called innovation. In addition to novelty, an innovation has to be applicable and replicable economically in real life. Otherwise, it is useless or simply a lie.&lt;/p&gt;
+
+&lt;p&gt;In the very past, before and during the Renaissance, innovations were usually established by some special individuals which were minor part of the population. Besides those individuals’ tremendous efforts which act as leading role in generating innovation, the access to information and knowledge had also substantially contributed to the process of innovating.&lt;/p&gt;
+
+&lt;p&gt;In human history, it was a long period of time that knowledge was passed and spread by rumor, word-of-mouths or more civilized, by books. Nowadays, computer and the Internet has changed everything. It help to quickly solve complex calculations, to instantly (to some extend) transmit multimedia like text, images, voices or videos, etc. But more importantly, it is acting like the biggest library of human’s knowledge that every can access. It opens and flattens the information availability gap. At this point, it is a very good reason to believe that anyone can become a creator and the next innovation can come from anyone of us.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-the-crowd-contributes-to-innovations&quot;&gt;How the crowd contributes to innovations?&lt;/h2&gt;
+&lt;p&gt;We are living in the time that there were many “What an era!” had been spoken out to express the amusement and excitement to new innovations. Like no other periods, thank to the flourishment of venture capitalists, the universalization of the Internet, the entrance bar to an industry has been lower and lower that anyone with an idea can quickly entry (The more important question is how to survive after entrying, but it is out of the scope of this article, and in fact, the author also does not have enough information and ability to answer).&lt;/p&gt;
+
+&lt;p&gt;###CrowdFunding
+In recent years, crowdfunding has become a buzzword in fundraising activity. The mechanism is quite simple in which product creator asks for money from the crowd. Anyone who has interest in such product can become a backer with a small amount of money. In reverse, backer will receive the product as soon as it is released without any additional fee. With Kickstarter, Indiegogo or many other similar sites, the journey to mass production of an idea is widely opened. And indeed, there were many products coming from those sites have become the “unicorn” of the industry like Pebble smart watch, Oculus Rift virtual reality kit, 3Doodlers pen, etc., &lt;strong&gt;The crowd, in this case, the backers&lt;/strong&gt; have enormous contribution to the success of those innovative products.&lt;/p&gt;
+
+&lt;p&gt;###CrowdSourcing
+Besides financial support, the crowd is also one of the most precious sources of data related to not only human but also the entire environment. Smartphone, from the segment of high-class products has become popular and somewhat universal. The superior of smartphone over feature phone comes not only from its large screen or its simple usage but also from the fact that it comes with plenty of sensors equipped inside. Those sensors can measure human activity, human behavior, environmental light density, some can measure environmental temperature or humidity, etc. These data will not be that useful if they are not gathered at one place. And again, thank to the ease of accessing the Internet directly from the smartphone, sensed data can be easily collected and gathered at one place to form the thing that we call BigData. These data, BigData, is analyzed to extract useful information in many different fields such as weather forecasting, psychology or human behavior study, etc.&lt;/p&gt;
+
+&lt;p&gt;The example of smartphone’s sensor above is a variance of the Internet-of-Things (IoT). The concept IoT is used to describe a world in which, everything is connected to the Internet, everything become every-smart-things. By equipping daily life stuff with different kinds of sensors, those normal stuff can gather the data about the environment surround us, or even the data about ourselves. In return, the systems that use those data can transform to adapt and response to human’s needs. All of those tasks can be conducted automatically. &lt;strong&gt;The crowd here is now represented by the large amount of sensors, injected into daily life, scattered through out the environment.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a problem that such system have to face, that is how to make it least intrusive but still maximize its ability. This is when researchers work on Human-Computer Interface (HCI). It is the question of how to make the interaction between human and computer become simple yet efficient.&lt;/p&gt;
+
+&lt;p&gt;###CrowdMaking
+The crowd making here is not the concept of how to form a crowd, but it means &lt;strong&gt;the crowd that make thing&lt;/strong&gt;. This concept has come to my mind when I see that many or even most of the projects on crowdfunding sites are &lt;strong&gt;NOT&lt;/strong&gt; from big company with big name and brand. Most of them, most of those innovative ideas started from a small garage of a maker, from the desk of a hobbyist or from an individual who stumbled to trouble in daily life and tried to solve it by himself/herself. This was the moment I talked to myself “Yeah, the innovations come from anyone who faces or realizes the problem, and then come down hard to solve it”. No matter how you define it, the uttermost mission of a product or a solution is to solve a problem in our human life. Where does that problem come from? Obviously, it comes every single actions or events in our society — the crowd. Then it is best if we can solve that problem by ourselves. This is not a breaking-news, but why only until recent years, have the creators in the crowd made big impact on innovation?&lt;/p&gt;
+
+&lt;p&gt;The answer might be because only until recently, with the help of crowdfunding sites, the fund raising has become simpler that everyone can get sufficient financial support. But as mentioned above, crowdfunding sites focus on shortening the journey to mass production. That means, it is supposed that the product has already been well prototyped and can actually work. It turns out that rapid prototyping is one of the keys to have good and actually working products. Rapid prototyping is a concept in which creator utilize a bunch of available tools and technologies to fastest make a working version of the product. The faster you can make the prototype, the higher number of iteration that you can run to refine the product, which in turn, promises increment of final (released) quality. These available tools and technologies I mentioned here is known in software development as open source platform, library, low-cost services like Amazon Cloud Service, Docker, OpenStack, etc., and in hardware as open source hardware, low-cost rapid fabrication tools like Arduino, 3D printer, laser-cutter, silver nano particle ink, etc. Not only the bar to entry the industry has been lowered thank to crowdfunding, but the bar to realize an idea has also lowered thank to those rapid prototyping tools. This leads us to a scene in which many people are empowered with powerful tools to make things that can transform our society. I strongly believe this will make a revolution in how we compete, innovate and improve human life.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-those-crowd-stuff-happen&quot;&gt;Make those Crowd-stuff happen?&lt;/h2&gt;
+&lt;p&gt;It sounds like those Crowd-stuff are quite fancy. So how to make it happen? Regarding of Crowdfunding, I will not have further comment here as those guys in Kickstarter and Indiegogo are really nailing it. I want to give a little more detail about CrowdSourcing and CrowdMaking which are things that I have been doing recently.&lt;/p&gt;
+
+&lt;h3 id=&quot;research-in-rapid-prototyping---to-crowdmaking&quot;&gt;Research in Rapid Prototyping - To CrowdMaking&lt;/h3&gt;
+&lt;p&gt;The keypoint to realize CrowdMaking is that everyone can quickly try and realize an idea to evaluate if it is really work or not. Recent developments in technology and new material have brought us a bunch of powerful tools to rapidly fabricate really working prototypes. Among these, our research is focusing on rapid prototyping of electronic circuits. Traditional method to rapidly prototype electronic circuits is to use breadboard to make the wiring. This method is quite convenient to simple electronic circuits but it is escalated quickly when the circuits get more complicated. Another method to make electronic circuit is to use Printed Circuit Board (PCB). However, PCB board is mostly used in mass production as it takes quite long time to make a PCB board (depend on the size of the board also the technology used to fabricate PCB). In our research, we used comodity inkjet printer to print conductive ink into special photo paper. We call this technology Instant Inkjet Circuits. The conductive ink we used here is special Silver Nano-particle Ink that can establish conductivity almost immediately after printing. Thus, we can quickly print conductive pattern at low-cost. However, Instant Inkjet Circuits has some problems that need to be solved in order to broaden its application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resistance&lt;/strong&gt; - Improve printed conductivity by overprinting
+Although silver is known to have better bulk conductivity than copper, however, as silver nano ink needs chemical sintering to establish conductivity, the sheet resistance of silver ink printed pattern is still high at 0.2Ω/sq (ohm per square). This is not enough to make efficient application like antenna for wireless power transmission. There is a solution to this resistance problem is to re-print the pattern over and over by reloading the paper. However, this method causes misalignment between each printing times. In order to eliminate these misalignments, we decide to implement a overprinting mechanism that continuously re-print the pattern at each passing time of printed head. The modification is made in printer opensource driver Gutenprint so it can be used in hundreds of printer brand that Gutenprint supports. By overprinting for 10 times, we have succeed at bringing sheet resistance down to 0.043Ω/sq, 5 times lower than the non-overprinting printed pattern.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Multilayered Circuits&lt;/strong&gt; - Support multilayer routing circuit
+Although Instant Inkjet Circuits is very good at prototyping single layered circuits, many applications and electronic circuit schematics require the support of multilayered circuit.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make fabrication easy access to every one
+    &lt;ul&gt;
+      &lt;li&gt;Universal availability&lt;/li&gt;
+      &lt;li&gt;Low-cost&lt;/li&gt;
+      &lt;li&gt;Safety is a MUST&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;research-in-iot-and-sensors---to-crowdsourcing&quot;&gt;Research in IoT and sensors - To CrowdSourcing&lt;/h3&gt;
+
+</description>
+        <pubDate>Thu, 30 Jul 2015 09:38:27 +0900</pubDate>
+        <link>http://localhost:4000/next_innovations_come_from_the_crowd</link>
+        <guid isPermaLink="true">http://localhost:4000/next_innovations_come_from_the_crowd</guid>
+      </item>
+    
+      <item>
+        <title>Common used git command</title>
+        <description>&lt;p&gt;#Tips for Git&lt;/p&gt;
+
+&lt;p&gt;##1. Check detail of remote “origin” master
+	git remote -v&lt;/p&gt;
+
+&lt;p&gt;##2. Set new remote origin
+	git remote set-url –add gituser@githost:user/project.git&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote set-url --add git@git.tech-codes.com:tatung/m2-midterm-draft.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;##3. Set non-default port for git
+For Mac or Linux, edit file ~/.ssh/config (can create a new one if not exists)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host git.tech-codes.com
+HostName git.tech-codes.com
+Port 9722
+User tatung
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;##4. Add file in git
+Add all tracked files which are not in .gitignore&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add all tracked files which are not in .gitignore and removed files&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add -u
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add -A
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 22 Apr 2015 09:38:27 +0900</pubDate>
+        <link>http://localhost:4000/tips_for_git</link>
+        <guid isPermaLink="true">http://localhost:4000/tips_for_git</guid>
+      </item>
+    
+      <item>
         <title>Mixyll in Action</title>
         <description>&lt;p&gt;There is a significant amount of subtle, yet precisely calibrated, styling to ensure
 that your content is emphasized while still looking aesthetically pleasing.&lt;/p&gt;

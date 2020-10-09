@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nỗi buồn chiến tranh - Bảo Ninh &#8211; 6fingers.me</title>
+    <title>Change Amazon Drive synchronization folder on Mac &#8211; 6fingers.me</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
@@ -11,8 +11,8 @@
     <meta name="description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.">
     <meta name="robots" content="all">
     <meta name="author" content="Tung D. Ta">
-    <meta name="keywords" content="book">
-    <link rel="canonical" href="http://localhost:4000/noi-buon-chien-tranh">
+    <meta name="keywords" content="how-to">
+    <link rel="canonical" href="http://localhost:4000/Change-location-of-Amazon-Drive-sync-folder">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for 6fingers.me" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -30,9 +30,9 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Nỗi buồn chiến tranh - Bảo Ninh">
+    <meta property="og:title" content="Change Amazon Drive synchronization folder on Mac">
     <meta property="og:description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.">
-    <meta property="og:url" content="http://localhost:4000/noi-buon-chien-tranh">
+    <meta property="og:url" content="http://localhost:4000/Change-location-of-Amazon-Drive-sync-folder">
     <meta property="og:site_name" content="6fingers.me">
     
 
@@ -42,9 +42,9 @@
         <meta name="twitter:site" content="@tatung2112" />
         <meta name="twitter:creator" content="@tatung2112" />
     
-    <meta name="twitter:title" content="Nỗi buồn chiến tranh - Bảo Ninh" />
+    <meta name="twitter:title" content="Change Amazon Drive synchronization folder on Mac" />
     <meta name="twitter:description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making." />
-    <meta name="twitter:url" content="http://localhost:4000/noi-buon-chien-tranh" />
+    <meta name="twitter:url" content="http://localhost:4000/Change-location-of-Amazon-Drive-sync-folder" />
     
 
     <!-- Icons -->
@@ -107,26 +107,39 @@
 
 
 <div class="post-header mb2">
-  <h1>Nỗi buồn chiến tranh - Bảo Ninh</h1>
-  <span class="post-meta">Oct 19, 2018 |</span>
+  <h1>Change Amazon Drive synchronization folder on Mac</h1>
+  <span class="post-meta">Jan 4, 2017 |</span>
   
   <span class="post-meta small">
   
-    2 minute read
+    1 minute read
   
   </span>
 </div>
 
 <article class="post-content">
-  <p>Một cuốn tiểu thuyết chiến tranh tuyệt vời. Bảo Ninh kể một câu truyện không có cốt truyện rõ ràng, mà lại vô cùng mạch lạc, lôi cuốn. Ông dẫn dắt người đọc lần giở từng ngõ ngách của quá khứ, của hiện tại, những chuyển biến nội tâm của những tuyến nhân vật chính, những khát khao tột đỉnh, những sợ hãi tột cùng, đối mặt, lảng tránh, dày vò, day dứt. Trên tất cả, “Nỗi buồn chiến tranh” vẽ lại sự tàn khốc của chiến tranh, một thứ tai ương ập xuống, dày xéo, càn quét. Và khi nó đi qua, để lại những hố sâu thăm thẳm trong cuộc đời những người đi qua nó. Người ta có thể nỗ lực xây dựng vun đắp một cuộc sống tốt đẹp sau cuộc chiến, nhưng những vết cắt trong tâm hồn thì chẳng ai có thể xoa nhòa. Những vết thương ấy sẽ lại lần mò dội về trong những mộng mị sầu đau. Tuy nhiên, dù có như vậy, dù có thê lương đến nhường nào, những con người của cuộc chiến sẽ vẫn mãi là họ của buổi ban sơ thanh xuân. Dù cuộc chiến có thay đổi tâm hồn con người đến mấy, thì thầm kín trong đáy lòng, chôn vùi trong kí ức, những tâm tưởng trong trẻo ngọt ngào sẽ luôn ở đó, âm ỉ, không bùng cháy, nhưng trung thành, và còn mãi.</p>
+  <p>Owning a Amazon Prime gives you the perk of unlimitedly storing your photos on Amazon Drive. It also comes with a desktop client for automatically syncing your photos to your cloud folder. However, one of the most irritated thing with this client is that, you cannot set the syncing folder to your external hard drive. It is possible to set it to a different partition as long as it is in your “internal” hard drive (Happy to get notification from Mac saying that you are running out of storage - thanks to your huge amount of photos synced from Amazon Drive). Well, there is a solution for this on Mac (it seems that there is a solution for Windows by editing registry).</p>
 
-<p><img src="/asset/img/sach-noi-buon-chien-tranh.jpg" alt="cover" width="50%" /></p>
+<ul>
+  <li>Install the Amazon Drive client as usual. When it asks you to sync from your cloud to your local, just choose skip (or later).</li>
+  <li>Turn off Amazon Drive client (the cloud icon on the notification bar)</li>
+  <li>Plug your external hard drive in</li>
+  <li>In your Finder, go to:<br />
+<code class="highlighter-rouge">/Users/USER_NAME/Library/Application Support/Amazon Cloud Drive</code></li>
+  <li>Open file <code class="highlighter-rouge">amzn1.account.#########-settings.json</code> with your text editor, you will see somethings like this:</li>
+</ul>
 
-<p>Những cảm xúc cuốn sách mang lại thật mãnh liệt khó tả. Sự xót xa sẽ càng tăng lên nếu người đọc cũng là học sinh Chu Văn An. Cuốn sách đầu tiên mà mấy ngày sau khi đọc xong, mình vẫn chưa muốn đọc một cuốn sách mới ngay vì vẫn còn muốn lưu giữ lại lâu hơn chút nữa những suy tưởng mông lung mà “Nỗi buồn chiến tranh” đem lại.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+	<span class="s">"DeviceSourceId"</span><span class="p">:</span> <span class="s">"################"</span><span class="p">,</span>
+	<span class="s">"SyncPath"</span><span class="p">:</span> <span class="s">"/Path/To/Your/Sync/Directory"</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<p>Thật lạ khi Bảo Ninh sinh ra ở Nghệ An nhưng lại có thể tả về Hà Nội, tả về trường Bưởi với nhà Bát Giác sống động đến thế. Nhà Bát Giác 60 năm trước là nơi trốn học của học trò trường Bưởi thì nay vẫn thế. Vẫn là nơi lui tới của học sinh Chu Văn An mỗi khi lẻn tiết học để đi lang thang vu vơ.</p>
-
-<p>P.S. Hóa ra Bảo Ninh cũng từng là học sinh của trường Bưởi Chu Văn An.</p>
+<ul>
+  <li>Just change the value of <code class="highlighter-rouge">SyncPath</code> to your prefered external hard drive. It should be somethings like `
+“SyncPath”: “/Volumes/ExternalDrive/Amazon Drive”`</li>
+  <li>Start Amazon Drive client, it will ask you the location of sync folder, just click Next and the client will sync your cloud folder to your external hard drive</li>
+</ul>
 
 </article>
 
@@ -136,15 +149,11 @@
     Share:
 
     
-      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fnoi-buon-chien-tranh" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FChange-location-of-Amazon-Drive-sync-folder" rel="nofollow" target="_blank" title="Share on Facebook"></a>
     
 
     
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=N%E1%BB%97i+bu%E1%BB%93n+chi%E1%BA%BFn+tranh+-+B%E1%BA%A3o+Ninh&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fnoi-buon-chien-tranh" rel="nofollow" target="_blank" title="Share on Twitter"></a>
-    
-
-    
-
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Change+Amazon+Drive+synchronization+folder+on+Mac&amp;url=http%3A%2F%2Flocalhost%3A4000%2FChange-location-of-Amazon-Drive-sync-folder" rel="nofollow" target="_blank" title="Share on Twitter"></a>
     
 
     
@@ -152,13 +161,17 @@
     
 
     
-      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fnoi-buon-chien-tranh&amp;title=N%E1%BB%97i+bu%E1%BB%93n+chi%E1%BA%BFn+tranh+-+B%E1%BA%A3o+Ninh" rel="nofollow" target="_blank" title="Share on Reddit"></a>
+
+    
+
+    
+      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FChange-location-of-Amazon-Drive-sync-folder&amp;title=Change+Amazon+Drive+synchronization+folder+on+Mac" rel="nofollow" target="_blank" title="Share on Reddit"></a>
     
 
     
 
     
-      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2Fnoi-buon-chien-tranh&amp;t=N%E1%BB%97i+bu%E1%BB%93n+chi%E1%BA%BFn+tranh+-+B%E1%BA%A3o+Ninh" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
+      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2FChange-location-of-Amazon-Drive-sync-folder&amp;t=Change+Amazon+Drive+synchronization+folder+on+Mac" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
     
   </div>
 </div>
@@ -171,8 +184,8 @@
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_shortname  = '6fingers-me';
-    var disqus_identifier = '/noi-buon-chien-tranh';
-    var disqus_title      = "Nỗi buồn chiến tranh - Bảo Ninh";
+    var disqus_identifier = '/Change location of Amazon Drive sync folder';
+    var disqus_title      = "Change Amazon Drive synchronization folder on Mac";
 
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -194,14 +207,14 @@
     </li>
     
     <li>
-      <a href="/trong-manh-vuon-rao-kin" class="post-link">
-          Trong mảnh vườn rào kín
+      <a href="/noi-buon-chien-tranh" class="post-link">
+          Nỗi buồn chiến tranh - Bảo Ninh
       </a>
     </li>
     
     <li>
-      <a href="/Change-location-of-Amazon-Drive-sync-folder" class="post-link">
-          Change Amazon Drive synchronization folder on Mac
+      <a href="/trong-manh-vuon-rao-kin" class="post-link">
+          Trong mảnh vườn rào kín
       </a>
     </li>
     

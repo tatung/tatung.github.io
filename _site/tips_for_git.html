@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>IoT và Bão &#8211; 6fingers.me</title>
+    <title>Common used git command &#8211; 6fingers.me</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
@@ -11,8 +11,8 @@
     <meta name="description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.">
     <meta name="robots" content="all">
     <meta name="author" content="Tung D. Ta">
-    <meta name="keywords" content="promotion">
-    <link rel="canonical" href="http://localhost:4000/IoT-va-Bao">
+    <meta name="keywords" content="how-to">
+    <link rel="canonical" href="http://localhost:4000/tips_for_git">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for 6fingers.me" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -30,9 +30,9 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="IoT và Bão">
+    <meta property="og:title" content="Common used git command">
     <meta property="og:description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making.">
-    <meta property="og:url" content="http://localhost:4000/IoT-va-Bao">
+    <meta property="og:url" content="http://localhost:4000/tips_for_git">
     <meta property="og:site_name" content="6fingers.me">
     
 
@@ -42,9 +42,9 @@
         <meta name="twitter:site" content="@tatung2112" />
         <meta name="twitter:creator" content="@tatung2112" />
     
-    <meta name="twitter:title" content="IoT và Bão" />
+    <meta name="twitter:title" content="Common used git command" />
     <meta name="twitter:description" content="This is a collection of my notes. Most of them are my thought after reading good research papers. Other articles will be how-to which are some experience that I picked-up during research, programming, and making." />
-    <meta name="twitter:url" content="http://localhost:4000/IoT-va-Bao" />
+    <meta name="twitter:url" content="http://localhost:4000/tips_for_git" />
     
 
     <!-- Icons -->
@@ -107,37 +107,54 @@
 
 
 <div class="post-header mb2">
-  <h1>IoT và Bão</h1>
-  <span class="post-meta">Nov 9, 2019 |</span>
+  <h1>Common used git command</h1>
+  <span class="post-meta">Apr 22, 2015 |</span>
   
   <span class="post-meta small">
   
-    4 minute read
+    1 minute read
   
   </span>
 </div>
 
 <article class="post-content">
-  <p><img src="/asset/img/uploads/Edogawa_Typhoon_Hagibis_near_Katsushika_bridge.jpg" alt="" /></p>
+  <p>#Tips for Git</p>
 
-<p>Chắc hẳn mọi người vẫn chưa quên mức độ tàn phá của cơn bão số 19 đổ bộ vào Tokyo gần 3 tuần trước. Siêu bão càn quét vào gây lụt lội cũng như khiến không ít nhà phải đi sơ tán trong đêm. Tối hôm đó thứ Bảy, chị Budo nhà mình thì vẫn ăn no ngủ kĩ, 8h lóp ngóp bò lên giường. Tuy nhiên, hai bố mẹ thì ngồi lo lắng đợi lệnh sơ tán. Khổ, nhà ở tầng 7 mà vẫn sợ bị lụt. Mình thì nghĩ nhà cao tầng thì sợ quái gì. Lụt mà leo lên được tầng 7 thì có mà loạn. Có khi ở nhà còn an toàn hơn ở chỗ sơ tán. Nhưng nghĩ lại, nếu lụt thì không thể đi đâu. Mà nhà mình phần hệ thống cấp điện lại để ở tầng 1, nên nếu lụt thì cũng đi tong cả điện lẫn nước. Quan trọng nhất, chị Budo cả tuần tập chạy hăng say để hôm sau Chủ Nhật tham gia hội thể dục thể thao ở trường, nếu lụt thì sẽ bị huỷ. Thật là phí! Bu Hồng phải cài đến 3 cái app vào điện thoại để theo dõi. Mấy cái app này ngoài push thông tin dự báo thời tiết với thông tin sơ tán, thì còn có theo dõi mực nước sông theo thời gian thực. Ở bờ sông nhà mình có 2 cái camera, hai vợ chồng ngồi hồi hộp theo dõi mực nước qua 2 camera này. Từ lúc nước dâng qua nửa chân cầu, rồi 2/3 chân cầu, rồi tràn vào bờ, tràn mép đài quan trắc gần đấy. Rất may là nước chỉ dâng tới đó rồi thôi, chứ dâng nữa là không đợi lệnh, cả nhà chắc cũng ô áo xách cặp đi sơ tán. Sáng hôm sau trời quang mây tạnh, cả nhà thở phào, chuẩn bị đồ đi tham gia hội thể dục thể thao của Budo.</p>
+<p>##1. Check detail of remote “origin” master
+	git remote -v</p>
 
-<p>Câu chuyện sẽ chẳng có gì nếu mình không bất chợt nhớ tới việc thỉnh thoảng mình hay được hỏi về chuyên ngành nghiên cứu của mình là gì. Mình hay trả lời là em làm về IoT ạ. Sau đấy là một loạt giải thích IoT là gì, cụ thể là làm cái gì trong IoT, v.v. Nghĩ về câu chuyện camera theo dõi mực nước sông trong cơn bão ở trên, mình nghĩ IoT là đây chứ đâu. Mực nước sông đương nhiên theo dõi bằng cảm biến mực nước sẽ chính xác hơn. Tuy nhiên, ở Nhật có một khái niệm là 安全安心 - an toàn và an tâm. Trong cơn bão 19 vừa qua an toàn đó là việc sức khoẻ cũng như tài sản được bảo vệ trước thiên tai, còn an tâm chính là việc mọi người biết là mình sẽ được an toàn. Một ví dụ đơn cử đó là việc hai vợ chồng mình có thể theo dõi mực nước sông một cách trực quan, mặc dù biết là các cơ quan khí tượng cũng có quan trắc sát sao mực nước lũ bằng các hệ thống hiện đại khác. Việc thêm thông tin về hình ảnh trực quan giống như topping một quả cherry trên chiếc bánh kem. Không có thì cũng không chết ai, nhưng có thì mức độ hoàn thiện của cả hệ thống sẽ được nâng lên gấp nhiều lần. IoT ngoài là một mạng lưới các cảm biến, còn bao gồm cả yếu tố con người. Và chính con người sẽ trở thành trung tâm của hệ thống IoT tương lai.</p>
+<p>##2. Set new remote origin
+	git remote set-url –add gituser@githost:user/project.git</p>
 
-<p>Trên đây chỉ là một ví dụ đơn giản về hệ thống quan trắc đã và đang được triển khai rất nhiều ở Nhật. Ngoài ra còn có rất nhiều các hệ thống khác được Nhật triển khai sâu rộng ở nhiều tầng công nghệ khác nhau. Mình vẫn luôn tự hỏi vậy những hệ thống như vậy nên được thiết kế và vận hành ra sao, Việt Nam và người Việt có thể đóng góp gì cho chuỗi giá trị của thị trường IoT toàn cầu. Cuối tuần sau, sẽ diễn ra Summit của các anh chị em làm việc và nghiên cứu ở Nhật, mình nhất định sẽ đem những câu hỏi này hỏi trong các phiên thảo luận, ít nhất là phiên về IoT.</p>
+<p>For example:</p>
 
-<p>PS 1:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote set-url --add git@git.tech-codes.com:tatung/m2-midterm-draft.git
+</code></pre></div></div>
 
-<ul>
-  <li>Chương trình Vietnam Summit in Japan 2019 (thứ Bảy, 16/11/2019) vẫn đang mở bán vé (miễn phí) tham dự sự kiện vào ban ngày.</li>
-  <li>Gọi là bán vé mà bán miễn phí, cốt là để BTC nắm được số lượng người tham dự để chuẩn bị cho tốt.</li>
-</ul>
+<p>##3. Set non-default port for git
+For Mac or Linux, edit file ~/.ssh/config (can create a new one if not exists)</p>
 
-<p>PS 2:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host git.tech-codes.com
+HostName git.tech-codes.com
+Port 9722
+User tatung
+</code></pre></div></div>
 
-<ul>
-  <li>Mình sẽ tham gia tổ chức thảo luận cho phiên thảo luận về IoT cùng các anh chị đang nghiên cứu giảng dạy ở các trường đại học cũng như các anh chị đang làm việc ở một số công ty ở Nhật. Hy vọng sẽ được gặp nhiều bạn bè trong phiên thảo luận này.</li>
-</ul>
+<p>##4. Add file in git
+Add all tracked files which are not in .gitignore</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+</code></pre></div></div>
+
+<p>Add all tracked files which are not in .gitignore and removed files</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -u
+</code></pre></div></div>
+
+<p>Add</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -A
+</code></pre></div></div>
 
 </article>
 
@@ -147,15 +164,11 @@
     Share:
 
     
-      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftips_for_git" rel="nofollow" target="_blank" title="Share on Facebook"></a>
     
 
     
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=IoT+v%C3%A0+B%C3%A3o&amp;url=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao" rel="nofollow" target="_blank" title="Share on Twitter"></a>
-    
-
-    
-
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Common+used+git+command&amp;url=http%3A%2F%2Flocalhost%3A4000%2Ftips_for_git" rel="nofollow" target="_blank" title="Share on Twitter"></a>
     
 
     
@@ -163,13 +176,17 @@
     
 
     
-      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao&amp;title=IoT+v%C3%A0+B%C3%A3o" rel="nofollow" target="_blank" title="Share on Reddit"></a>
+
+    
+
+    
+      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Ftips_for_git&amp;title=Common+used+git+command" rel="nofollow" target="_blank" title="Share on Reddit"></a>
     
 
     
 
     
-      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2FIoT-va-Bao&amp;t=IoT+v%C3%A0+B%C3%A3o" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
+      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2Ftips_for_git&amp;t=Common+used+git+command" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
     
   </div>
 </div>
@@ -182,8 +199,8 @@
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_shortname  = '6fingers-me';
-    var disqus_identifier = '/IoT-va-Bao';
-    var disqus_title      = "IoT và Bão";
+    var disqus_identifier = '/tips_for_git';
+    var disqus_title      = "Common used git command";
 
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -197,6 +214,12 @@
 
   <h3 class="related-post-title">Related Posts</h3>
   <ul class="related-posts">
+    
+    <li>
+      <a href="/IoT-va-Bao" class="post-link">
+          IoT và Bão
+      </a>
+    </li>
     
     <li>
       <a href="/noi-buon-chien-tranh" class="post-link">
@@ -237,12 +260,6 @@
     <li>
       <a href="/next_innovations_come_from_the_crowd" class="post-link">
           Next Innovations Come From The Crowd
-      </a>
-    </li>
-    
-    <li>
-      <a href="/tips_for_git" class="post-link">
-          Common used git command
       </a>
     </li>
     
