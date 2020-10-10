@@ -3,7 +3,7 @@ layout: post
 title: Common used git command
 date: 2015-04-22 00:38:27
 thumbnail: /asset/img/uploads/gitflow.png
-categories: how-to
+categories: How-to
 ---
 ![](/asset/img/uploads/gitflow.png)
 

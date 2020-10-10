@@ -3,7 +3,7 @@ layout: post
 title: How to root Qua Tab HWT31 - Huawei Mediapad T2 10 Pro
 date: 2016-05-30 00:38:27
 thumbnail: https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0412/users/576421107bc02883a8f988c63b44bfe19430d909/i-img1200x900-1544678041zg1rj1379148.jpg
-categories: how-to
+categories: How-to
 ---
 ![](/asset/img/uploads/hwt31.jpg)
 

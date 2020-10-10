@@ -3,7 +3,7 @@ title: Nỗi buồn chiến tranh - Bảo Ninh
 layout: post
 date: 2018-10-19 00:38:27
 thumbnail: "/asset/img/sach-noi-buon-chien-tranh.jpg"
-categories: book
+categories: Book
 ---
 
 Một cuốn tiểu thuyết chiến tranh tuyệt vời. Bảo Ninh kể một câu truyện không có cốt truyện rõ ràng, mà lại vô cùng mạch lạc, lôi cuốn. Ông dẫn dắt người đọc lần giở từng ngõ ngách của quá khứ, của hiện tại, những chuyển biến nội tâm của những tuyến nhân vật chính, những khát khao tột đỉnh, những sợ hãi tột cùng, đối mặt, lảng tránh, dày vò, day dứt. Trên tất cả, “Nỗi buồn chiến tranh” vẽ lại sự tàn khốc của chiến tranh, một thứ tai ương ập xuống, dày xéo, càn quét. Và khi nó đi qua, để lại những hố sâu thăm thẳm trong cuộc đời những người đi qua nó. Người ta có thể nỗ lực xây dựng vun đắp một cuộc sống tốt đẹp sau cuộc chiến, nhưng những vết cắt trong tâm hồn thì chẳng ai có thể xoa nhòa. Những vết thương ấy sẽ lại lần mò dội về trong những mộng mị sầu đau. Tuy nhiên, dù có như vậy, dù có thê lương đến nhường nào, những con người của cuộc chiến sẽ vẫn mãi là họ của buổi ban sơ thanh xuân. Dù cuộc chiến có thay đổi tâm hồn con người đến mấy, thì thầm kín trong đáy lòng, chôn vùi trong kí ức, những tâm tưởng trong trẻo ngọt ngào sẽ luôn ở đó, âm ỉ, không bùng cháy, nhưng trung thành, và còn mãi.

@@ -3,7 +3,7 @@ layout: post
 title: Change Amazon Drive synchronization folder on Mac
 date: 2017-01-04 00:38:27
 thumbnail: /asset/img/uploads/cloud-backup.jpg
-categories: how-to
+categories: How-to
 ---
 ![](/asset/img/uploads/cloud-backup.jpg)
 

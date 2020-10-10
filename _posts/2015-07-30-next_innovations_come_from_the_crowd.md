@@ -3,7 +3,7 @@ layout: post
 title: Next Innovations Come From The Crowd
 date: 2015-07-30 00:38:27
 thumbnail: /asset/img/uploads/Crowd-Hands-stadium.jpg
-categories: opinion
+categories: Opinion
 ---
 ![](/asset/img/uploads/Crowd-Hands-stadium.jpg)
 

@@ -44,6 +44,15 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/categories/book/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/how-to/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/opinion/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>

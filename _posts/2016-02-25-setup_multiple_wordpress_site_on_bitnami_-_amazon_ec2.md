@@ -3,7 +3,7 @@ layout: post
 title: Setup multiple Wordpress site on Bitnami - Amazon EC2
 date: 2016-02-25 00:38:27
 thumbnail: /asset/img/uploads/wordpress.jpg
-categories: how-to
+categories: How-to
 ---
 ![](/asset/img/uploads/wordpress.jpg)
 
