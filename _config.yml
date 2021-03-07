@@ -15,6 +15,8 @@ header_pages:
  - about.md
  - contact.html
 
+formspree: "https://formspree.io/f/xnqoeapw"
+
 google_analytics: UA-27976595-3
 # google_tag_manager: GTM-NZHM422
 
