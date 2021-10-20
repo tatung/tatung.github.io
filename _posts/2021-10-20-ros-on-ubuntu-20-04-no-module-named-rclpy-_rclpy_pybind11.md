@@ -39,28 +39,42 @@ This is due to the mismatch between my default Python version (Python 3.9) and t
 
 To solve this, run update the default Python version to 3.8 by:
 
-```
+```shell
 sudo update-alternatives --config python3
+```
+
+Output:
+
+```shell
+There are 2 choices for the alternative python3 (providing /usr/bin/python3).
+
+  Selection    Path                Priority   Status
+------------------------------------------------------------
+* 0            /usr/bin/python3.9   2         auto mode
+  1            /usr/bin/python3.8   1         manual mode
+  2            /usr/bin/python3.9   2         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
 ```
 
 Python with * is the default version. Choose Python 3.8.
 
-After that, you can run the example in the [ROS2 installation guide](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html).
+After that, you can run the example in the [ROS2 installation guide](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html) as follows:
 
-If you installed `ros-galactic-desktop` above you can try some examples.
-
-In one terminal, source the setup file and then run a C++ `talker`:
-
-```
-source /opt/ros/galactic/setup.bash
-ros2 run demo_nodes_cpp talker
-```
-
-In another terminal source the setup file and then run a Python listener:
-
-```
-source /opt/ros/galactic/setup.bash
-ros2 run demo_nodes_py listener
-```
-
-You should see the `talker` saying that it’s `Publishing` messages and the `listener` saying `I heard` those messages. This verifies both the C++ and Python APIs are working properly. Hooray!
+> If you installed `ros-galactic-desktop` above you can try some examples.
+>
+> In one terminal, source the setup file and then run a C++ `talker`:
+>
+> ```shell
+> source /opt/ros/galactic/setup.bash
+> ros2 run demo_nodes_cpp talker
+> ```
+>
+> In another terminal source the setup file and then run a Python listener:
+>
+> ```shell
+> source /opt/ros/galactic/setup.bash
+> ros2 run demo_nodes_py listener
+> ```
+>
+> You should see the `talker` saying that it’s `Publishing` messages and the `listener` saying `I heard` those messages. This verifies both the C++ and Python APIs are working properly. Hooray!
