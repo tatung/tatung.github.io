@@ -5,6 +5,12 @@ date: 2021-10-20T05:45:48.783Z
 thumbnail: /asset/img/uploads/screen-shot-2021-10-20-at-14.47.27.png
 categories: How-to
 ---
+<style>
+  code {
+    white-space : pre-wrap !important;
+    word-break: break-word;
+  }
+</style>
 After installing ROS2 Galactic to Ubuntu 20.04 following the instruction [here](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html), when run the examples, I stumped at this error:
 
 ```shell
