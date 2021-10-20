@@ -2,7 +2,7 @@
 layout: post
 title: ROS on Ubuntu 20.04, No module named 'rclpy._rclpy_pybind11'
 date: 2021-10-20T05:45:48.783Z
-thumbnail: /asset/img/uploads/screen-shot-2021-10-20-at-14.47.27.png
+thumbnail: /asset/img/uploads/screen-shot-2021-10-20-at-15.10.18.png
 categories: How-to
 ---
 <style>
