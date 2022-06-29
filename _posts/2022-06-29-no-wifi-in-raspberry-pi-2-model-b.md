@@ -1,14 +1,18 @@
 ---
 layout: post
 comments: true
-title: No wifi in Raspberry Pi 2 Model B
 date: 2022-06-29
-thumbnail: /asset/img/uploads/img_3505.jpg
+title: No wifi in Raspberry Pi 2 Model B
+tags:
+  - network
+  - Raspberry Pi
+
 categories:
   - How-to
+
 ---
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d704959-90a6-4604-8a22-ed9cf5bf2abf/IMG_3505.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220629T081906Z&X-Amz-Expires=3600&X-Amz-Signature=660df22e42f987395b2dc4788cfae1d9f3a847391363c8424447123747b8707f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d704959-90a6-4604-8a22-ed9cf5bf2abf/IMG_3505.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220629T132555Z&X-Amz-Expires=3600&X-Amz-Signature=0a031f4fd2c0ab882c3d338119244f9670a845aca91f58a022624f9b9cf7b127&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Scan wifi to check if your Raspberry detects available wifi
 
@@ -49,8 +53,6 @@ dhclient wlan0
 
 and then repeat the `raspi-config` procedure above.
 
-Ref: [https://unix.stackexchange.com/a/400113](https://unix.stackexchange.com/a/400113)
-
 ## Auto connect to wifi after rebooting
 
 To automatically connect to your AP after restart edit the `wlan0` interface on your `/etc/network/interfaces` as follow:
@@ -64,5 +66,7 @@ iface wlan0 inet dhcp
 ```shell
 sudo reboot
 ```
+
+ref: [https://unix.stackexchange.com/a/400113](https://unix.stackexchange.com/a/400113)
 
 May wifi be with you!
