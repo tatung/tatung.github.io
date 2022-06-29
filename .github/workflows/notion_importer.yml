@@ -27,10 +27,12 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "17"
+      
+      - run: npm install
 
       # Runs a single command using the runners shell
       - name: Run notion importer script
-        run: node notion-importer.js
+        run: node notion_importer.js
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
