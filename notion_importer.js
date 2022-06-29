@@ -6,6 +6,9 @@ const fs = require('fs');
 // or
 // import {NotionToMarkdown} from "notion-to-md";
 
+console.log("NOTION_TOKEN: " + process.env.NOTION_TOKEN)
+console.log("NOTION_DB_ID: " + process.env.NOTION_DB_ID)
+
 const notion = new Client({
 	auth: process.env.NOTION_TOKEN,
 });
