@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-date: 2022-06-29
 title: No wifi in Raspberry Pi 2 Model B
+date: 2022-06-29
+thumbnail: /asset/img/uploads/img_3505.jpg
 categories:
   - How-to
-
 ---
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d704959-90a6-4604-8a22-ed9cf5bf2abf/IMG_3505.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220629T081906Z&X-Amz-Expires=3600&X-Amz-Signature=660df22e42f987395b2dc4788cfae1d9f3a847391363c8424447123747b8707f&X-Amz-SignedHeaders=host&x-id=GetObject)
