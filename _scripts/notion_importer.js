@@ -17,7 +17,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 (async () => {
 	// ensure directory exists
 	// const root = path.join('_posts', 'notion')
-	const root = path.join('../_posts', '')
+	const root = path.join('./_posts', '')
 	fs.mkdirSync(root, { recursive: true })
 
 	const databaseId = process.env.NOTION_DB_ID;
@@ -85,7 +85,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 		// thumbnail
 		let thumbnail = ''
 		thumbnail = r.properties?.['thumbnail']
-		const thumbnailFileName = `../asset/img/uploads/${date}-${title.replaceAll(' ', '-').toLowerCase()}.png`
+		const thumbnailFileName = `./asset/img/uploads/${date}-${title.replaceAll(' ', '-').toLowerCase()}.png`
 		const url = r.properties?.['thumbnail']?.['files']?.[0]?.['file']?.['url']
 		// download thumbnail image and save to thumnailFileName
 		download(url, thumbnailFileName)
@@ -95,7 +95,7 @@ layout: post
 comments: ${comments}
 date: ${date}
 title: ${title}${fmtags}${fmcats}
-thumbnail: ${thumbnailFileName.substring(2)}
+thumbnail: ${thumbnailFileName.substring(1)}
 ---
 `
 		const mdblocks = await n2m.pageToMarkdown(id);
