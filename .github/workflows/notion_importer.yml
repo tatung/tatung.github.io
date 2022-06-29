@@ -32,7 +32,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run notion importer script
-        run: node notion_importer.js
+        run: node _scripts/notion_importer.js
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}

@@ -3,11 +3,9 @@ const { NotionToMarkdown } = require("notion-to-md");
 const moment = require('moment');
 const path = require('path');
 const fs = require('fs');
+const download = require('./downloader.js')
 // or
 // import {NotionToMarkdown} from "notion-to-md";
-
-console.log("NOTION_TOKEN: " + process.env.NOTION_TOKEN)
-console.log("NOTION_DB_ID: " + process.env.NOTION_DB_ID)
 
 const notion = new Client({
 	auth: process.env.NOTION_TOKEN,
@@ -19,7 +17,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 (async () => {
 	// ensure directory exists
 	// const root = path.join('_posts', 'notion')
-	const root = path.join('_posts', '')
+	const root = path.join('../_posts', '')
 	fs.mkdirSync(root, { recursive: true })
 
 	const databaseId = process.env.NOTION_DB_ID;
@@ -85,23 +83,25 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 		}
 
 		// thumbnail
-		// let thumbnail = ''
-		// thumbnail = r.properties?.['thumbnail']
-		// // 書き込み
-		// fs.writeFile("/asset/img/uploads/test.png", thumbnail, (err) => {
-		// 	if (err) throw err;
-		// 	console.log('正常に書き込みが完了しました');
-		// });
+		let thumbnail = ''
+		thumbnail = r.properties?.['thumbnail']
+		const thumbnailFileName = `../asset/img/uploads/${date}-${title.replaceAll(' ', '-').toLowerCase()}.png`
+		const url = r.properties?.['thumbnail']?.['files']?.[0]?.['file']?.['url']
+		// download thumbnail image and save to thumnailFileName
+		download(url, thumbnailFileName)
 		
 		const fm = `---
 layout: post
 comments: ${comments}
 date: ${date}
 title: ${title}${fmtags}${fmcats}
+thumbnail: ${thumbnailFileName.substring(2)}
 ---
 `
 		const mdblocks = await n2m.pageToMarkdown(id);
 		const md = n2m.toMarkdownString(mdblocks);
+
+		'\!\[*\]\(*\)'
 
 		//writing to file
 		const ftitle = `${date}-${title.replaceAll(' ', '-').toLowerCase()}.md`
