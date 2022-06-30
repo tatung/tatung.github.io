@@ -36,7 +36,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 		const id = r.id
 		// date
 		let date = moment(r.created_time).format("YYYY-MM-DD")
-		let pdate = r.properties?.['Date']?.['date']?.['start']
+		let pdate = r.properties?.['date']?.['date']?.['start']
 		if (pdate) {
 			date = moment(pdate).format('YYYY-MM-DD')
 		}
@@ -48,7 +48,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 		}
 		// tags
 		let tags = []
-		let ptags = r.properties?.['Tags']?.['multi_select']
+		let ptags = r.properties?.['tags']?.['multi_select']
 		for (const t of ptags) {
 			const n = t?.['name']
 			if (n) {
