@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on every 5 minutes
   push:
   schedule:
-    - cron: "* */6 * * *"
+    - cron: "* */1 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
