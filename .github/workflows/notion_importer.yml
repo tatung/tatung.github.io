@@ -4,10 +4,10 @@ name: Notion to Jekyll
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on every 5 minutes
+  # Triggers the workflow on every 1 hour at minute 50
   push:
   schedule:
-    - cron: "* */1 * * *"
+    - cron: "50 * * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
