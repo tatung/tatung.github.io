@@ -13,7 +13,7 @@ categories:
 thumbnail: /asset/img/uploads/2022-07-01-open-port-in-docomo-5g-hr01.png
 ---
 
-WARNING: Docomo 5G HR01 does not receive a global IP, so even if you open the ports, you cannot access your LAN network from an external network.
+> ⚠️ WARNING: Docomo 5G HR01 does NOT receive a global IP, so even if you open the ports, you cannot access your LAN network from an external network.
 
 This is just a note for future when Docomo give your HR01 a global IP (probably will be IPv6).
 
