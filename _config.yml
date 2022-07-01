@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a collection of my notes. Most of them are my thought after reading good research papers.
   Other articles will be how-to which are some experience that I picked-up during research, programming, and making.
 baseurl:     ""
+timezone: Asia/Tokyo
 url:         "https://6fingers.me"
 date_format: "%b %-d, %Y"
 header_pages:
