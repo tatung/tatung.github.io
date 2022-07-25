@@ -2,6 +2,6 @@
   "devDependencies": {
     "@notionhq/client": "^1.0.4",
     "moment": "^2.29.2",
-    "notion-to-md": "^2.4.1"
+    "notion-to-md": "^2.5.3"
   }
 }

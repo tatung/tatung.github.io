@@ -93,3 +93,6 @@ exclude:
   - Rakefile
   - README.md
   - vendor
+
+kramdown:
+  math_engine: katex
