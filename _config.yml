@@ -94,5 +94,5 @@ exclude:
   - README.md
   - vendor
 
-kramdown:
-  math_engine: katex
+# kramdown:
+#   math_engine: katex
