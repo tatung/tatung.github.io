@@ -11,6 +11,7 @@ url:         "https://6fingers.me"
 date_format: "%b %-d, %Y"
 header_pages:
  - cat_opinions.md
+ - cat_essays.md
  - cat_books.md
  - cat_howto.md
  - about.md
