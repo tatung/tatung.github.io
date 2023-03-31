@@ -17,13 +17,13 @@ Lâu ngày không đọc quyển truyện nào, tự nhiên hôm rồi lướt q
 
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f4e05dd-337b-49c5-9772-ace4cce48920/91mYu67RfUL-2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230331T145354Z&X-Amz-Expires=3600&X-Amz-Signature=adb49b20a7a0b6a491d6c2af0b33e47d1f1d5722ee2bc9e5d8f697f5308b2096&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f4e05dd-337b-49c5-9772-ace4cce48920/91mYu67RfUL-2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230331T155350Z&X-Amz-Expires=3600&X-Amz-Signature=f6a6084c05abada8ecde03e216d1a702be213ab985e9d9fe6d678c1c126bc204&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 Trong truyện, Andy Weir cũng cài cắm khá nhiều chi tiết về việc các nhân vật trong truyện tính toán và suy luận các tính chất vật lý, toán học, và hoá học để đưa ra giải pháp cho những thử thách gặp phải. Những tình huống truyện như vậy nó như lời mời gọi người đọc cùng tham gia tính toán cùng nhân vật. Không ít lần mình đã dừng đọc và lấy giấy bút ra để thử cùng tính xem tàu vũ trụ phải quay với vận tốc bao nhiêu để đạt gia tốc trọng trường 1.5_g_. Đối với mình, đây mới chính là điểm cuốn hút nhất của truyện khoa học giả tưởng.
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e37f9872-b858-4ff0-b712-2c87cbf73997/DALLE_2022-08-17_22.13.18_-_an_astronaut_doing_extravehicular_activity_on_orbital_of_a_greenish_planet_the_sun_is_on_the_far_left_3d_render.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230331T145352Z&X-Amz-Expires=3600&X-Amz-Signature=6a18a77cccc344b9b327f3d28c9f92e03d17af3b8ce3b263e8494a488835a68b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e37f9872-b858-4ff0-b712-2c87cbf73997/DALLE_2022-08-17_22.13.18_-_an_astronaut_doing_extravehicular_activity_on_orbital_of_a_greenish_planet_the_sun_is_on_the_far_left_3d_render.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230331%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230331T155348Z&X-Amz-Expires=3600&X-Amz-Signature=453fcfa163006e1a8a85ac173892ebfd49f9e4e46d804ac6f47669a22bfc6f72&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 Càm ràm: Có một điểm mình hơi chê đó là việc trong truyện có một chi tiết có hơi hướm thần thánh hoá quá trình bình duyệt (peer-review) các nghiên cứu khoa học. Là người làm nghiên cứu, đương nhiên mình hiểu tầm quan trọng của peer-review. Tuy nhiên peer-review cũng có nhiều vấn đề gây tranh cãi. Mà nhiều lúc, peer-review xong rồi cũng không chắc chắn 100% là nghiên cứu đúng hoàn toàn. (hết càm ràm)
