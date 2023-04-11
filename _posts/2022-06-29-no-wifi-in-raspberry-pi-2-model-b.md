@@ -13,7 +13,7 @@ categories:
 thumbnail: /asset/img/uploads/2022-06-29-no-wifi-in-raspberry-pi-2-model-b.png
 ---
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d704959-90a6-4604-8a22-ed9cf5bf2abf/IMG_3505.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230411%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230411T215352Z&X-Amz-Expires=3600&X-Amz-Signature=930b6d847e5251ccb36bcedb232c54a8c5f191334698bc61f334e2f722293b45&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d704959-90a6-4604-8a22-ed9cf5bf2abf/IMG_3505.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230411%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230411T225342Z&X-Amz-Expires=3600&X-Amz-Signature=1b06f5f9d859d2c02edb84646543413772e0820adcbac69969ca49a5f98d897d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 Scan wifi to check if your Raspberry detects available wifi
