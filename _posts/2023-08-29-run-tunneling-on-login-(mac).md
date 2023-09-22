@@ -25,6 +25,11 @@ My university has contracts with a bunch of scientific publishers so that we can
 3. In Library, search for `Run Shell Script`
 4. Drag and Drop the `Run Shell Script` to the right pane
 5. Input the comment to execute the `tunnel.bash` bash file above
+
+	```shell
+	sh ~/bin/tunnel.bash
+	```
+
 6. Click Run, and check if the tunnel is established
 7. Save the automator (file name might be `start_tunneling`) to a directory of your preference (again, mine is `~/bin`)
 8. Go to `System Settings/General/Login Items`, add the automator saved in step 7 to the Open at Login list
